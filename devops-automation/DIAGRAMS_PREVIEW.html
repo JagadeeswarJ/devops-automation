@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI DevOps Architecture Diagrams - Simple & PPT-Ready</title>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+    <script>
+        mermaid.initialize({
+            startOnLoad: true,
+            theme: 'default',
+            securityLevel: 'loose',
+            flowchart: { useMaxWidth: false, htmlLabels: true }
+        });
+    </script>
+    <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background: #f4f6f9;
+            color: #212529;
+            padding: 30px;
+        }
+        .header {
+            max-width: 1000px;
+            margin: 0 auto 30px auto;
+            background: white;
+            padding: 25px 30px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+            border-left: 5px solid #1a73e8;
+        }
+        .header h1 { font-size: 24px; color: #1a365d; margin-bottom: 8px; }
+        .header p { font-size: 14px; color: #4a5568; line-height: 1.5; }
+        .tip {
+            margin-top: 12px;
+            padding: 10px 14px;
+            background: #e8f0fe;
+            border-radius: 6px;
+            color: #1967d2;
+            font-size: 13px;
+            font-weight: 500;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+        }
+        .diagram-card {
+            background: white;
+            border-radius: 10px;
+            padding: 22px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+            border: 1px solid #e2e8f0;
+        }
+        .card-header {
+            border-bottom: 2px solid #edf2f7;
+            padding-bottom: 12px;
+            margin-bottom: 16px;
+        }
+        .card-header h2 { font-size: 17px; color: #2b6cb0; }
+        .mermaid-container {
+            overflow-x: auto;
+            padding: 15px;
+            background: #ffffff;
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>?? Simple Architecture Diagrams for PPT Slides</h1>
+        <p><strong>Project:</strong> AI-Driven Autonomous DevOps Framework (Phase 1: AWS & GCP)</p>
+        <p>These diagrams are kept small, simple, and clean so they fit directly on PowerPoint slides.</p>
+        <div class="tip">
+            ?? <strong>How to Use:</strong> Press <code>Win + Shift + S</code> to snip each diagram and paste directly into your PPT slide!
+        </div>
+    </div>
+
+    <div class="container">
+        
+        <div class="diagram-card" id="overall_system_architecture_diagram">
+            <div class="card-header">
+                <h2>Overall System Architecture Diagram</h2>
+            </div>
+            <div class="mermaid-container">
+                <pre class="mermaid">
+flowchart LR
+    A["Input Data:
+Codebase
+(GitHub / Local)"] --> B["ML Analysis Layer
+- Extract Lang, Framework, Manifests
+- RAG Application Context
+- Compute & Scalability Profile"]
+    B --> C["ML Cloud Recommendation
+- Predicts AWS vs. GCP
+- Cost, Performance, Scalability"]
+    C --> D["User Preferences & Rules
+- User Cloud Constraints
+- Cost Optimization
+- DevSecOps Compliance Gates"]
+    D -. Phase 2 .-> E["Infra Provisioning (Phase 2)
+- Terraform Generation
+- AWS / GCP Cloud APIs"]
+    E -. Phase 2 .-> F["Monitoring (Phase 2)
+- Telemetry & Anomaly Detection
+- Error Classification"]
+
+    style A fill:#E3F2FD,stroke:#1565C0,stroke-width:2px,color:#0D47A1
+    style B fill:#E8F5E9,stroke:#2E7D32,stroke-width:2px,color:#1B5E20
+    style C fill:#EDE7F6,stroke:#4527A0,stroke-width:2px,color:#311B92
+    style D fill:#FFF3E0,stroke:#E65100,stroke-width:2px,color:#BF360C
+    style E fill:#ECEFF1,stroke:#546E7A,stroke-width:1px,stroke-dasharray: 5 5,color:#37474F
+    style F fill:#ECEFF1,stroke:#546E7A,stroke-width:1px,stroke-dasharray: 5 5,color:#37474F
+                </pre>
+            </div>
+        </div>
+    
+        <div class="diagram-card" id="1_simple_4-step_decision_flow_phase_1">
+            <div class="card-header">
+                <h2>1. Simple 4-Step Decision Flow (Phase 1)</h2>
+            </div>
+            <div class="mermaid-container">
+                <pre class="mermaid">
+flowchart LR
+    S1["1. Codebase Scan
+AST, Manifests,
+Dockerfile, Routes"] --> S2["2. Feature Vector
+10 Attributes
+(Lang, DB, Memory)"]
+    S2 --> S3["3. ML Models
+Random Forest
+Archetype & Cloud"]
+    S3 --> S4["4. Policy & RAG
+Cost Sizing, Gates,
+Citation Q&A"]
+
+    style S1 fill:#E3F2FD,stroke:#1565C0,stroke-width:2px,color:#0D47A1
+    style S2 fill:#E8F5E9,stroke:#2E7D32,stroke-width:2px,color:#1B5E20
+    style S3 fill:#EDE7F6,stroke:#4527A0,stroke-width:2px,color:#311B92
+    style S4 fill:#FFF3E0,stroke:#E65100,stroke-width:2px,color:#BF360C
+                </pre>
+            </div>
+        </div>
+    
+        <div class="diagram-card" id="simple_decision_flow">
+            <div class="card-header">
+                <h2>Simple Decision Flow</h2>
+            </div>
+            <div class="mermaid-container">
+                <pre class="mermaid">
+flowchart TD
+    App["Application Codebase"] --> C{"Is Containerized?"}
+    C -- Yes --> T{"Workload Type"}
+    C -- No --> S["Serverless Function
+AWS Lambda / GCP Cloud Functions"]
+    T -- "Web API / High Concurrency" --> GCP["GCP Cloud Run
+(Saves 19-28% Monthly)"]
+    T -- "Enterprise / Java Spring" --> AWS["AWS ECS Fargate
+(Deep IAM & Multi-AZ RDS)"]
+
+    style App fill:#E3F2FD,stroke:#1565C0,stroke-width:2px,color:#0D47A1
+    style C fill:#FFF3E0,stroke:#E65100,stroke-width:2px,color:#BF360C
+    style T fill:#FFF3E0,stroke:#E65100,stroke-width:2px,color:#BF360C
+    style GCP fill:#E8F5E9,stroke:#2E7D32,stroke-width:2px,color:#1B5E20
+    style AWS fill:#EDE7F6,stroke:#4527A0,stroke-width:2px,color:#311B92
+    style S fill:#E1F5FE,stroke:#0277BD,stroke-width:2px,color:#01579B
+                </pre>
+            </div>
+        </div>
+    
+        <div class="diagram-card" id="phase_1_completed_deliverables_vs_phase_2_roadmap">
+            <div class="card-header">
+                <h2>Phase 1 Completed Deliverables vs. Phase 2 Roadmap</h2>
+            </div>
+            <div class="mermaid-container">
+                <pre class="mermaid">
+flowchart LR
+    subgraph P1 ["? Phase 1 (Completed & Verified)"]
+        direction TB
+        A1["Codebase Scanner"] --> A2["ML Decision Models"]
+        A2 --> A3["Cost Sizing & Security Gates"]
+        A3 --> A4["Context-Aware RAG Q&A"]
+        A4 --> A5["Web UI & CLI Interfaces"]
+    end
+
+    subgraph P2 ["? Phase 2 (Upcoming Roadmap)"]
+        direction TB
+        B1["Terraform Generation"] --> B2["Live Cloud Provisioning"]
+        B2 --> B3["Telemetry Monitoring ML"]
+        B3 --> B4["Autonomous Self-Healing"]
+    end
+
+    P1 ==> P2
+
+    style P1 fill:#E8F5E9,stroke:#2E7D32,stroke-width:2px,color:#1B5E20
+    style P2 fill:#E1F5FE,stroke:#0277BD,stroke-width:2px,color:#01579B
+                </pre>
+            </div>
+        </div>
+    
+    </div>
+</body>
+</html>

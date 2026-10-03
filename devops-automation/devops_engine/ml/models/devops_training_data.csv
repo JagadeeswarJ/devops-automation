@@ -1,0 +1,1601 @@
+language,framework,database,is_containerized,has_api,has_cache,has_queue,route_count,loc_category,base_memory_mb,archetype,recommended_cloud,recommended_compute
+Python,Other,PostgreSQL,0,1,0,0,10,medium,512,Stateful_Monolith_VM,AWS,AWS EC2
+Python,Flask,PostgreSQL,1,1,1,0,5,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,Express,None,1,1,1,1,13,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Other,None,None,1,1,0,0,12,medium,256,Containerized_Microservice,AWS,AWS ECS Fargate
+Python,FastAPI,PostgreSQL,1,1,0,1,18,medium,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Java,Spring Boot,None,1,1,0,0,7,medium,1024,Containerized_Microservice,GCP,GCP Cloud Run
+Go,Gin,MySQL,1,1,0,0,22,large,256,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,Other,PostgreSQL,1,0,1,0,0,medium,768,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+JavaScript,Express,PostgreSQL,0,1,0,0,3,small,512,Serverless_Microfunction,AWS,AWS Lambda
+Python,Django,MySQL,1,1,0,0,48,large,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,Express,PostgreSQL,1,1,0,0,6,medium,512,Containerized_Microservice,GCP,GCP Cloud Run
+JavaScript,Express,MySQL,1,1,0,0,5,small,512,Containerized_Microservice,AWS,AWS ECS Fargate
+JavaScript,NestJS,DynamoDB,1,1,0,0,7,small,512,Containerized_Microservice,AWS,AWS ECS Fargate
+Python,None,PostgreSQL,0,1,0,0,9,medium,512,Stateful_Monolith_VM,GCP,GCP Compute Engine
+Python,FastAPI,PostgreSQL,1,1,1,0,4,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,Express,None,1,1,1,0,13,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Java,Spring Boot,MySQL,1,1,0,1,66,large,1024,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Python,FastAPI,PostgreSQL,1,1,0,0,5,medium,512,Containerized_Microservice,GCP,GCP Cloud Run
+Python,FastAPI,PostgreSQL,1,1,0,0,9,medium,512,Containerized_Microservice,GCP,GCP Cloud Run
+Python,Flask,DynamoDB,0,1,1,1,22,medium,768,Stateful_Monolith_VM,AWS,AWS EC2
+Go,Gin,PostgreSQL,1,1,1,0,11,medium,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,NestJS,PostgreSQL,1,1,0,0,20,medium,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,Express,MySQL,0,1,1,0,19,medium,768,Stateful_Monolith_VM,AWS,AWS EC2
+JavaScript,Express,MongoDB,1,1,1,0,39,large,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,Express,MongoDB,1,1,0,0,4,medium,512,Containerized_Microservice,GCP,GCP Cloud Run
+JavaScript,Express,None,1,1,1,0,17,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,Express,MongoDB,1,1,0,1,18,medium,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,None,None,0,1,1,0,6,medium,768,Stateful_Monolith_VM,GCP,GCP Compute Engine
+JavaScript,Other,PostgreSQL,1,0,0,0,0,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+Java,None,None,0,0,0,0,0,small,1024,Stateful_Monolith_VM,AWS,AWS EC2
+Python,FastAPI,MongoDB,1,1,0,0,11,medium,512,Containerized_Microservice,GCP,GCP Cloud Run
+Java,None,PostgreSQL,1,1,0,0,5,small,1024,Containerized_Microservice,AWS,AWS ECS Fargate
+Python,Django,MongoDB,1,1,1,0,5,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,Express,PostgreSQL,1,1,0,0,6,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+Java,Spring Boot,PostgreSQL,1,1,1,0,53,large,1536,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Other,None,MongoDB,0,1,0,0,7,small,256,Serverless_Microfunction,AWS,AWS Lambda
+Python,FastAPI,PostgreSQL,1,1,1,1,15,medium,768,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+JavaScript,Express,MongoDB,0,1,0,1,53,large,512,Stateful_Monolith_VM,AWS,AWS EC2
+JavaScript,Express,MongoDB,1,1,1,0,5,small,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,Express,MongoDB,1,1,0,1,10,medium,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Go,None,None,0,0,0,0,0,small,256,Stateful_Monolith_VM,AWS,AWS EC2
+JavaScript,None,MySQL,0,1,1,1,23,medium,768,Stateful_Monolith_VM,AWS,AWS EC2
+JavaScript,None,PostgreSQL,1,1,0,0,2,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+JavaScript,Express,MySQL,1,1,1,1,13,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,NestJS,None,1,1,1,1,50,large,768,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Java,Spring Boot,MySQL,1,1,0,0,8,medium,1024,Containerized_Microservice,AWS,AWS ECS Fargate
+Python,Flask,Firestore,1,1,0,0,1,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+Go,Other,MongoDB,1,1,0,0,5,small,256,Containerized_Microservice,GCP,GCP Cloud Run
+Python,None,None,0,0,0,0,0,medium,512,Stateful_Monolith_VM,AWS,AWS EC2
+Other,Other,MongoDB,1,1,1,0,9,medium,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Java,Spring Boot,MySQL,1,1,0,1,22,medium,1024,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Python,Flask,MySQL,0,1,0,0,4,small,512,Serverless_Microfunction,AWS,AWS Lambda
+Python,Flask,MongoDB,0,1,0,0,4,small,512,Serverless_Microfunction,AWS,AWS Lambda
+JavaScript,Express,PostgreSQL,1,1,1,0,20,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Other,None,None,0,0,0,0,0,small,256,Stateful_Monolith_VM,AWS,AWS EC2
+Python,FastAPI,PostgreSQL,1,1,1,0,18,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,FastAPI,PostgreSQL,1,1,1,1,22,large,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,FastAPI,MongoDB,0,1,0,0,7,medium,512,Stateful_Monolith_VM,AWS,AWS EC2
+Java,Spring Boot,None,1,1,1,0,17,medium,1536,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Python,FastAPI,PostgreSQL,0,1,1,1,21,medium,768,Stateful_Monolith_VM,AWS,AWS EC2
+Other,Other,PostgreSQL,1,1,1,0,6,medium,512,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Go,Gin,PostgreSQL,0,1,1,1,13,medium,512,Stateful_Monolith_VM,AWS,AWS EC2
+Go,Gin,PostgreSQL,0,1,1,1,20,medium,512,Stateful_Monolith_VM,GCP,GCP Compute Engine
+Java,Spring Boot,MySQL,1,1,1,1,58,large,1536,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Python,Django,None,0,1,1,0,16,large,768,Stateful_Monolith_VM,AWS,AWS EC2
+JavaScript,Express,None,1,1,1,0,9,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,NestJS,PostgreSQL,1,1,1,0,20,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,Express,PostgreSQL,1,1,0,0,1,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+JavaScript,Express,PostgreSQL,0,1,0,0,6,medium,512,Stateful_Monolith_VM,AWS,AWS EC2
+Python,FastAPI,PostgreSQL,1,1,0,0,6,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+Python,Flask,MySQL,1,1,0,0,12,medium,512,Containerized_Microservice,GCP,GCP Cloud Run
+Python,Django,PostgreSQL,1,1,0,0,6,medium,512,Containerized_Microservice,GCP,GCP Cloud Run
+JavaScript,Express,MongoDB,1,1,1,0,16,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,Django,PostgreSQL,1,1,1,1,22,medium,768,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Python,FastAPI,PostgreSQL,1,1,1,1,15,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,NestJS,PostgreSQL,1,1,1,0,11,medium,768,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+JavaScript,Express,None,1,1,1,1,16,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Java,Spring Boot,PostgreSQL,0,1,1,1,38,large,1536,Stateful_Monolith_VM,AWS,AWS EC2
+Other,None,None,1,1,0,0,4,small,256,Containerized_Microservice,GCP,GCP Cloud Run
+Java,Spring Boot,PostgreSQL,1,1,1,1,16,medium,1536,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+JavaScript,Express,MongoDB,0,1,0,0,2,small,512,Serverless_Microfunction,AWS,AWS Lambda
+JavaScript,Express,None,1,1,1,0,8,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,Flask,MongoDB,0,1,0,1,14,medium,512,Stateful_Monolith_VM,AWS,AWS EC2
+JavaScript,None,None,0,0,0,0,0,medium,512,Stateful_Monolith_VM,AWS,AWS EC2
+Python,Django,PostgreSQL,1,1,1,0,51,large,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,Django,MongoDB,0,1,0,0,11,medium,512,Stateful_Monolith_VM,AWS,AWS EC2
+JavaScript,Express,MongoDB,0,1,1,0,20,medium,768,Stateful_Monolith_VM,GCP,GCP Compute Engine
+Go,Gin,MongoDB,0,1,1,0,23,medium,512,Stateful_Monolith_VM,GCP,GCP Compute Engine
+Java,Spring Boot,PostgreSQL,1,1,1,0,8,medium,1536,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Python,Flask,MySQL,1,1,0,0,5,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+Python,FastAPI,PostgreSQL,1,1,0,0,5,medium,512,Containerized_Microservice,GCP,GCP Cloud Run
+Go,Gin,MongoDB,1,1,0,1,18,medium,256,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,FastAPI,PostgreSQL,0,1,0,0,14,medium,512,Stateful_Monolith_VM,GCP,GCP Compute Engine
+JavaScript,NestJS,None,0,1,1,1,17,medium,768,Stateful_Monolith_VM,AWS,AWS EC2
+Other,Other,PostgreSQL,1,1,0,0,7,small,256,Containerized_Microservice,AWS,AWS ECS Fargate
+Python,Django,MySQL,1,1,0,1,49,large,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,Flask,None,1,1,0,0,3,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+Python,FastAPI,PostgreSQL,1,1,0,1,14,medium,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Other,None,None,0,0,0,0,0,small,256,Stateful_Monolith_VM,GCP,GCP Compute Engine
+Java,Spring Boot,MySQL,1,1,1,0,46,large,1536,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+JavaScript,Express,MongoDB,1,1,1,0,21,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Java,None,None,0,0,0,0,0,small,1024,Stateful_Monolith_VM,AWS,AWS EC2
+Python,FastAPI,PostgreSQL,1,1,1,0,11,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,Express,MySQL,1,1,0,0,6,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+Go,Gin,MongoDB,1,1,0,0,19,medium,256,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Go,Gin,PostgreSQL,1,1,0,0,5,medium,256,Containerized_Microservice,GCP,GCP Cloud Run
+Java,Spring Boot,MySQL,0,1,1,0,49,large,1536,Stateful_Monolith_VM,AWS,AWS EC2
+Java,Spring Boot,MySQL,1,1,1,1,17,medium,1536,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+JavaScript,Express,MongoDB,1,1,1,0,5,small,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,NestJS,PostgreSQL,1,1,0,0,24,medium,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,NestJS,DynamoDB,1,1,0,0,10,medium,512,Containerized_Microservice,GCP,GCP Cloud Run
+Go,Gin,MySQL,1,1,0,0,3,small,256,Containerized_Microservice,GCP,GCP Cloud Run
+Python,Flask,MySQL,0,1,0,0,3,small,512,Serverless_Microfunction,AWS,AWS Lambda
+Python,Flask,MySQL,1,1,0,0,4,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+Python,Django,MySQL,0,1,0,0,12,medium,512,Stateful_Monolith_VM,GCP,GCP Compute Engine
+Python,FastAPI,PostgreSQL,1,1,1,0,52,large,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,Other,Firestore,0,0,0,0,0,small,512,Stateful_Monolith_VM,GCP,GCP Compute Engine
+JavaScript,NestJS,None,1,1,0,1,15,medium,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Java,None,PostgreSQL,1,1,0,0,2,small,1024,Containerized_Microservice,AWS,AWS ECS Fargate
+JavaScript,NestJS,PostgreSQL,0,1,0,1,23,medium,512,Stateful_Monolith_VM,GCP,GCP Compute Engine
+JavaScript,Express,PostgreSQL,0,1,0,0,2,small,512,Serverless_Microfunction,AWS,AWS Lambda
+Java,Spring Boot,MySQL,1,1,1,1,27,large,1536,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,Django,None,0,1,0,0,16,medium,512,Stateful_Monolith_VM,AWS,AWS EC2
+JavaScript,Express,PostgreSQL,0,1,1,1,15,medium,768,Stateful_Monolith_VM,AWS,AWS EC2
+Java,Spring Boot,MySQL,1,1,0,0,17,medium,1024,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Python,FastAPI,None,1,1,0,1,7,medium,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,None,MongoDB,0,1,1,1,16,medium,768,Stateful_Monolith_VM,AWS,AWS EC2
+Java,Spring Boot,MySQL,1,1,0,1,12,medium,1024,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Other,Other,MySQL,0,1,0,0,13,medium,256,Stateful_Monolith_VM,AWS,AWS EC2
+Java,Spring Boot,MySQL,1,1,1,1,51,large,1536,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Go,Other,MongoDB,0,1,1,0,11,medium,512,Stateful_Monolith_VM,GCP,GCP Compute Engine
+Other,None,MySQL,0,1,1,0,21,medium,512,Stateful_Monolith_VM,GCP,GCP Compute Engine
+Python,Flask,MySQL,0,1,0,0,5,small,512,Serverless_Microfunction,AWS,AWS Lambda
+Python,FastAPI,PostgreSQL,1,1,0,1,24,medium,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Go,None,PostgreSQL,0,1,0,0,2,small,256,Serverless_Microfunction,GCP,GCP Cloud Functions
+Python,FastAPI,PostgreSQL,1,1,0,0,12,medium,512,Containerized_Microservice,GCP,GCP Cloud Run
+Java,Spring Boot,MySQL,1,1,1,1,24,large,1536,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Python,Django,MongoDB,1,1,1,1,31,large,768,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Python,Django,MongoDB,0,1,1,0,61,large,768,Stateful_Monolith_VM,GCP,GCP Compute Engine
+Java,Spring Boot,None,1,1,1,0,17,medium,1536,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,NestJS,PostgreSQL,0,1,1,0,5,medium,768,Stateful_Monolith_VM,AWS,AWS EC2
+Java,Other,MySQL,1,1,0,0,4,medium,1024,Containerized_Microservice,AWS,AWS ECS Fargate
+Java,Spring Boot,None,1,1,1,0,15,medium,1536,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Java,Spring Boot,None,1,1,1,0,58,large,1536,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+JavaScript,Express,PostgreSQL,1,1,0,0,4,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+Python,Flask,MySQL,1,1,0,0,5,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+JavaScript,Other,None,0,1,0,0,4,medium,512,Stateful_Monolith_VM,GCP,GCP Compute Engine
+JavaScript,Express,MongoDB,1,1,0,1,11,medium,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,FastAPI,None,1,1,0,0,6,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+Python,Flask,MongoDB,0,1,0,0,6,medium,512,Stateful_Monolith_VM,AWS,AWS EC2
+Python,None,DynamoDB,1,1,1,0,23,medium,768,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+JavaScript,NestJS,MongoDB,1,1,1,0,13,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,NestJS,PostgreSQL,1,1,0,0,17,medium,512,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Java,Spring Boot,PostgreSQL,1,1,1,1,55,large,1536,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+JavaScript,Express,PostgreSQL,0,1,0,1,20,medium,512,Stateful_Monolith_VM,GCP,GCP Compute Engine
+Other,None,MySQL,1,1,0,0,7,medium,256,Containerized_Microservice,GCP,GCP Cloud Run
+Java,Spring Boot,PostgreSQL,1,1,1,0,68,large,1536,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+JavaScript,NestJS,PostgreSQL,0,1,0,1,17,medium,512,Stateful_Monolith_VM,GCP,GCP Compute Engine
+Python,Django,MongoDB,0,1,1,0,10,medium,768,Stateful_Monolith_VM,GCP,GCP Compute Engine
+Java,Spring Boot,MySQL,1,1,1,1,61,large,1536,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+JavaScript,NestJS,MongoDB,1,1,0,0,5,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+Python,Flask,MongoDB,0,1,0,0,8,medium,512,Stateful_Monolith_VM,GCP,GCP Compute Engine
+JavaScript,Express,PostgreSQL,1,1,0,0,6,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+Python,Flask,MySQL,0,1,0,0,2,small,512,Serverless_Microfunction,AWS,AWS Lambda
+Python,FastAPI,PostgreSQL,1,1,1,0,53,large,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,Flask,PostgreSQL,0,1,1,0,4,medium,768,Stateful_Monolith_VM,GCP,GCP Compute Engine
+Python,Flask,MySQL,0,1,1,0,14,medium,768,Stateful_Monolith_VM,GCP,GCP Compute Engine
+Go,None,None,0,0,0,0,0,medium,256,Stateful_Monolith_VM,GCP,GCP Compute Engine
+Python,Flask,Firestore,1,1,0,0,20,large,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,Flask,DynamoDB,0,1,0,0,7,medium,512,Stateful_Monolith_VM,AWS,AWS EC2
+JavaScript,NestJS,PostgreSQL,1,1,0,0,6,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+JavaScript,Express,MongoDB,1,1,1,1,20,medium,768,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+JavaScript,NestJS,MySQL,0,1,1,1,24,medium,768,Stateful_Monolith_VM,GCP,GCP Compute Engine
+JavaScript,Express,PostgreSQL,1,1,0,0,18,medium,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,NestJS,Firestore,1,1,1,0,19,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,Express,PostgreSQL,1,1,1,0,18,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,Other,PostgreSQL,0,1,0,0,10,medium,512,Stateful_Monolith_VM,AWS,AWS EC2
+Python,Other,MySQL,0,1,0,0,1,small,512,Serverless_Microfunction,GCP,GCP Cloud Functions
+Python,Flask,PostgreSQL,1,1,0,0,4,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+Go,Gin,MongoDB,1,1,0,0,8,medium,256,Containerized_Microservice,GCP,GCP Cloud Run
+Java,Spring Boot,PostgreSQL,1,1,0,1,21,medium,1024,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,FastAPI,PostgreSQL,1,1,1,1,14,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Other,None,PostgreSQL,0,1,1,0,10,medium,512,Stateful_Monolith_VM,GCP,GCP Compute Engine
+Go,None,PostgreSQL,1,1,0,0,4,small,256,Containerized_Microservice,GCP,GCP Cloud Run
+Python,FastAPI,PostgreSQL,1,1,0,0,5,medium,512,Containerized_Microservice,GCP,GCP Cloud Run
+Python,Flask,MongoDB,0,1,0,0,2,small,512,Serverless_Microfunction,AWS,AWS Lambda
+Java,Spring Boot,None,1,1,1,0,15,medium,1536,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+JavaScript,NestJS,MySQL,0,1,0,0,4,small,512,Serverless_Microfunction,GCP,GCP Cloud Functions
+Python,Other,MongoDB,1,1,1,0,4,small,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Java,Spring Boot,PostgreSQL,1,1,1,1,23,medium,1536,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Python,FastAPI,MongoDB,1,1,1,0,23,large,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,Express,MySQL,1,1,1,0,20,medium,768,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Java,None,None,1,0,0,1,0,medium,1024,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Other,Other,None,0,0,0,0,0,medium,256,Stateful_Monolith_VM,AWS,AWS EC2
+Java,Spring Boot,MySQL,1,1,1,0,12,medium,1536,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,Django,Firestore,0,1,1,0,16,medium,768,Stateful_Monolith_VM,GCP,GCP Compute Engine
+Python,FastAPI,PostgreSQL,1,1,1,1,22,medium,768,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+JavaScript,Express,MongoDB,1,1,1,1,12,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,Express,MongoDB,1,1,1,1,10,medium,768,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Java,Spring Boot,PostgreSQL,1,1,0,0,6,medium,1024,Containerized_Microservice,AWS,AWS ECS Fargate
+Java,Spring Boot,PostgreSQL,1,1,0,1,24,medium,1024,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,FastAPI,PostgreSQL,1,1,1,1,32,large,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,Express,MongoDB,1,1,1,0,24,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,Express,MongoDB,1,1,0,0,16,medium,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Java,Spring Boot,None,1,1,1,0,21,medium,1536,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+JavaScript,NestJS,MongoDB,1,1,0,0,5,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+JavaScript,Express,MySQL,0,1,0,0,3,small,512,Serverless_Microfunction,AWS,AWS Lambda
+JavaScript,Express,PostgreSQL,0,1,1,1,66,large,768,Stateful_Monolith_VM,AWS,AWS EC2
+Python,Flask,PostgreSQL,1,1,0,1,13,medium,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,Express,MongoDB,1,1,0,0,6,small,512,Containerized_Microservice,AWS,AWS ECS Fargate
+JavaScript,None,None,0,0,0,0,0,small,512,Stateful_Monolith_VM,AWS,AWS EC2
+JavaScript,NestJS,None,1,1,1,1,13,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,Express,MongoDB,1,1,1,0,23,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Java,None,PostgreSQL,0,1,0,0,21,medium,1024,Stateful_Monolith_VM,AWS,AWS EC2
+JavaScript,Express,MongoDB,0,1,0,0,6,small,512,Serverless_Microfunction,AWS,AWS Lambda
+JavaScript,Express,MySQL,1,1,0,0,29,large,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,Express,MongoDB,1,1,1,0,22,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,NestJS,PostgreSQL,0,1,0,0,6,medium,512,Stateful_Monolith_VM,GCP,GCP Compute Engine
+Python,Flask,MongoDB,0,1,0,0,10,medium,512,Stateful_Monolith_VM,AWS,AWS EC2
+Java,None,PostgreSQL,0,1,0,0,5,small,1024,Serverless_Microfunction,AWS,AWS Lambda
+Python,Django,MongoDB,1,1,0,1,18,large,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,FastAPI,MongoDB,1,1,1,0,6,small,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,Express,PostgreSQL,1,1,0,0,8,medium,512,Containerized_Microservice,GCP,GCP Cloud Run
+Python,Django,MongoDB,1,1,0,0,17,medium,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,Django,PostgreSQL,1,1,1,1,16,medium,768,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Java,Other,PostgreSQL,0,1,1,0,20,medium,1536,Stateful_Monolith_VM,AWS,AWS EC2
+Other,Other,MySQL,1,1,1,1,8,medium,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,None,MySQL,0,1,0,0,3,small,512,Serverless_Microfunction,GCP,GCP Cloud Functions
+JavaScript,None,None,0,1,0,1,10,medium,512,Stateful_Monolith_VM,GCP,GCP Compute Engine
+Go,Gin,PostgreSQL,1,1,0,0,4,small,256,Containerized_Microservice,GCP,GCP Cloud Run
+Python,Django,MySQL,1,1,0,1,30,large,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,None,PostgreSQL,0,1,0,0,1,small,512,Serverless_Microfunction,AWS,AWS Lambda
+Java,Spring Boot,PostgreSQL,0,1,1,1,19,medium,1536,Stateful_Monolith_VM,AWS,AWS EC2
+Python,Flask,None,0,1,0,0,1,small,512,Serverless_Microfunction,GCP,GCP Cloud Functions
+Python,Flask,MongoDB,0,1,0,0,1,small,512,Serverless_Microfunction,AWS,AWS Lambda
+Java,Spring Boot,PostgreSQL,1,1,1,0,9,medium,1536,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Python,FastAPI,PostgreSQL,1,1,1,0,22,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,Django,MySQL,0,1,0,0,10,medium,512,Stateful_Monolith_VM,AWS,AWS EC2
+Python,FastAPI,PostgreSQL,0,1,1,0,23,medium,768,Stateful_Monolith_VM,GCP,GCP Compute Engine
+Go,Gin,MySQL,1,1,0,1,9,medium,256,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,Express,PostgreSQL,1,1,0,0,11,medium,512,Containerized_Microservice,GCP,GCP Cloud Run
+Go,Gin,PostgreSQL,1,1,1,1,23,medium,512,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Go,Gin,MySQL,1,1,0,0,4,medium,256,Containerized_Microservice,GCP,GCP Cloud Run
+Other,Other,MySQL,0,1,0,0,7,small,256,Serverless_Microfunction,AWS,AWS Lambda
+JavaScript,NestJS,MongoDB,0,1,1,0,9,medium,768,Stateful_Monolith_VM,GCP,GCP Compute Engine
+Python,Other,PostgreSQL,0,0,0,0,0,small,512,Stateful_Monolith_VM,AWS,AWS EC2
+Other,Other,DynamoDB,1,0,0,0,0,medium,256,Containerized_Microservice,AWS,AWS ECS Fargate
+Python,Flask,MySQL,1,1,0,0,2,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+JavaScript,NestJS,DynamoDB,0,1,1,1,8,medium,768,Stateful_Monolith_VM,AWS,AWS EC2
+Python,FastAPI,PostgreSQL,0,1,0,0,9,medium,512,Stateful_Monolith_VM,GCP,GCP Compute Engine
+JavaScript,NestJS,PostgreSQL,1,1,0,0,9,medium,512,Containerized_Microservice,GCP,GCP Cloud Run
+Python,Django,None,1,1,0,0,18,medium,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,FastAPI,PostgreSQL,1,1,0,0,7,medium,512,Containerized_Microservice,GCP,GCP Cloud Run
+JavaScript,Express,MongoDB,0,1,0,0,36,large,512,Stateful_Monolith_VM,GCP,GCP Compute Engine
+Java,Spring Boot,MySQL,1,1,1,0,23,large,1536,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+JavaScript,Express,MongoDB,1,1,0,0,4,medium,512,Containerized_Microservice,GCP,GCP Cloud Run
+Python,Flask,Firestore,0,1,0,0,4,small,512,Serverless_Microfunction,GCP,GCP Cloud Functions
+Java,Spring Boot,MySQL,0,1,1,1,14,medium,1536,Stateful_Monolith_VM,AWS,AWS EC2
+Java,Spring Boot,MySQL,0,1,0,0,12,medium,1024,Stateful_Monolith_VM,AWS,AWS EC2
+JavaScript,Express,MongoDB,1,1,1,1,18,medium,768,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Go,Gin,MySQL,1,1,1,1,22,medium,512,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Go,Gin,MySQL,1,1,0,1,4,medium,256,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,Flask,None,1,1,1,1,22,medium,768,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Python,FastAPI,PostgreSQL,0,1,0,0,9,medium,512,Stateful_Monolith_VM,GCP,GCP Compute Engine
+Python,Flask,PostgreSQL,0,1,0,0,6,small,512,Serverless_Microfunction,AWS,AWS Lambda
+Java,Spring Boot,PostgreSQL,0,1,0,0,69,large,1024,Stateful_Monolith_VM,AWS,AWS EC2
+Python,FastAPI,MongoDB,1,1,0,1,15,medium,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Java,Other,PostgreSQL,1,1,1,0,17,medium,1536,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+JavaScript,Express,MongoDB,1,1,0,0,7,medium,512,Containerized_Microservice,GCP,GCP Cloud Run
+JavaScript,NestJS,MySQL,1,1,1,1,14,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,FastAPI,PostgreSQL,0,1,1,1,24,medium,768,Stateful_Monolith_VM,GCP,GCP Compute Engine
+Python,Flask,DynamoDB,0,1,0,0,2,small,512,Serverless_Microfunction,AWS,AWS Lambda
+JavaScript,NestJS,MySQL,1,1,0,0,5,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+Java,Spring Boot,PostgreSQL,1,1,0,1,17,large,1024,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Go,Gin,MySQL,1,1,0,1,7,medium,256,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Java,None,PostgreSQL,0,1,1,0,2,small,1536,Serverless_Microfunction,AWS,AWS Lambda
+JavaScript,Express,MySQL,1,1,0,0,8,medium,512,Containerized_Microservice,GCP,GCP Cloud Run
+Python,FastAPI,PostgreSQL,1,1,1,0,14,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,Express,MongoDB,0,1,0,0,51,large,512,Stateful_Monolith_VM,GCP,GCP Compute Engine
+Python,Flask,PostgreSQL,0,1,0,0,1,small,512,Serverless_Microfunction,GCP,GCP Cloud Functions
+Java,Spring Boot,PostgreSQL,1,1,1,1,59,large,1536,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Python,Flask,DynamoDB,1,1,0,0,3,small,512,Containerized_Microservice,AWS,AWS ECS Fargate
+Java,Spring Boot,PostgreSQL,1,1,1,1,22,medium,1536,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Other,Other,MongoDB,1,1,1,1,15,medium,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,Express,MongoDB,1,1,0,0,6,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+JavaScript,Express,MongoDB,1,1,0,0,4,medium,512,Containerized_Microservice,GCP,GCP Cloud Run
+Python,Flask,MongoDB,0,1,1,0,21,medium,768,Stateful_Monolith_VM,AWS,AWS EC2
+Python,FastAPI,PostgreSQL,0,1,0,0,4,medium,512,Stateful_Monolith_VM,GCP,GCP Compute Engine
+JavaScript,NestJS,None,0,1,1,0,30,large,768,Stateful_Monolith_VM,AWS,AWS EC2
+JavaScript,NestJS,None,1,1,1,0,6,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,NestJS,PostgreSQL,1,1,0,1,10,medium,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Go,None,None,0,0,0,0,0,small,256,Stateful_Monolith_VM,GCP,GCP Compute Engine
+JavaScript,Express,MySQL,1,1,0,1,11,medium,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,FastAPI,PostgreSQL,1,1,1,0,13,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,Express,None,0,1,0,0,6,medium,512,Stateful_Monolith_VM,GCP,GCP Compute Engine
+Python,Flask,MySQL,1,1,0,1,24,medium,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Java,None,MySQL,1,1,0,0,6,small,1024,Containerized_Microservice,AWS,AWS ECS Fargate
+Java,Spring Boot,MySQL,0,1,1,1,16,medium,1536,Stateful_Monolith_VM,AWS,AWS EC2
+Go,None,None,0,0,1,1,0,medium,512,Stateful_Monolith_VM,AWS,AWS EC2
+JavaScript,None,MongoDB,1,1,1,1,9,medium,768,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Python,FastAPI,None,1,1,0,1,15,medium,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,Express,PostgreSQL,1,1,0,0,5,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+Python,FastAPI,PostgreSQL,1,1,1,0,16,medium,768,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Other,None,None,0,0,0,0,0,small,256,Stateful_Monolith_VM,GCP,GCP Compute Engine
+Python,Flask,DynamoDB,1,1,0,0,12,medium,512,Containerized_Microservice,AWS,AWS ECS Fargate
+JavaScript,Express,PostgreSQL,0,1,1,1,47,large,768,Stateful_Monolith_VM,AWS,AWS EC2
+Go,Gin,MySQL,1,1,0,1,9,medium,256,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,FastAPI,PostgreSQL,1,1,0,0,2,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+Python,None,MySQL,0,1,1,0,17,medium,768,Stateful_Monolith_VM,GCP,GCP Compute Engine
+JavaScript,Other,PostgreSQL,0,1,0,0,4,small,512,Serverless_Microfunction,AWS,AWS Lambda
+Python,Django,DynamoDB,0,1,1,1,13,medium,768,Stateful_Monolith_VM,AWS,AWS EC2
+Python,FastAPI,PostgreSQL,1,1,0,0,3,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+JavaScript,Express,MongoDB,1,1,0,0,11,medium,512,Containerized_Microservice,GCP,GCP Cloud Run
+JavaScript,Express,None,0,1,0,0,7,medium,512,Stateful_Monolith_VM,AWS,AWS EC2
+JavaScript,Other,PostgreSQL,1,0,0,0,0,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+JavaScript,Express,MongoDB,0,1,0,0,11,medium,512,Stateful_Monolith_VM,AWS,AWS EC2
+Go,Gin,MongoDB,1,1,0,0,18,medium,256,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,FastAPI,PostgreSQL,1,1,0,1,5,medium,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,Django,MySQL,1,1,1,0,13,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,Express,MongoDB,0,1,0,1,64,large,512,Stateful_Monolith_VM,GCP,GCP Compute Engine
+Go,Other,MySQL,1,1,1,1,15,medium,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,Django,MySQL,1,1,0,0,48,large,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,None,None,1,0,0,0,0,medium,512,Containerized_Microservice,GCP,GCP Cloud Run
+Java,Spring Boot,PostgreSQL,1,1,0,1,13,medium,1024,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+JavaScript,NestJS,PostgreSQL,0,1,0,1,6,medium,512,Stateful_Monolith_VM,AWS,AWS EC2
+JavaScript,NestJS,None,0,1,0,0,6,small,512,Serverless_Microfunction,GCP,GCP Cloud Functions
+Python,Django,MySQL,0,1,0,0,23,medium,512,Stateful_Monolith_VM,GCP,GCP Compute Engine
+Go,Gin,MongoDB,0,1,0,0,12,medium,256,Stateful_Monolith_VM,GCP,GCP Compute Engine
+JavaScript,NestJS,None,0,1,0,0,10,medium,512,Stateful_Monolith_VM,GCP,GCP Compute Engine
+JavaScript,Express,PostgreSQL,1,1,1,0,12,medium,768,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Python,FastAPI,MongoDB,1,1,0,1,15,large,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,Express,MongoDB,1,1,0,1,37,large,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,Express,None,1,1,1,0,9,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,Flask,MongoDB,0,1,0,0,9,medium,512,Stateful_Monolith_VM,GCP,GCP Compute Engine
+JavaScript,None,None,1,0,1,0,0,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,Express,MongoDB,0,1,0,0,13,medium,512,Stateful_Monolith_VM,GCP,GCP Compute Engine
+Go,Gin,MongoDB,0,1,1,0,7,medium,512,Stateful_Monolith_VM,GCP,GCP Compute Engine
+Python,Other,PostgreSQL,1,0,0,0,0,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+Python,FastAPI,PostgreSQL,1,1,1,1,20,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,Django,MySQL,0,1,1,1,59,large,768,Stateful_Monolith_VM,AWS,AWS EC2
+Java,Spring Boot,PostgreSQL,1,1,0,0,22,medium,1024,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Java,Spring Boot,MySQL,1,1,0,1,24,medium,1024,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Java,Spring Boot,PostgreSQL,0,1,1,1,14,medium,1536,Stateful_Monolith_VM,AWS,AWS EC2
+Java,Spring Boot,None,0,1,1,1,17,large,1536,Stateful_Monolith_VM,AWS,AWS EC2
+Python,FastAPI,PostgreSQL,1,1,0,0,5,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+JavaScript,Express,PostgreSQL,1,1,1,1,21,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,None,DynamoDB,1,1,0,0,18,medium,512,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Other,None,MongoDB,0,1,0,0,1,small,256,Serverless_Microfunction,AWS,AWS Lambda
+Python,FastAPI,MongoDB,1,1,1,0,13,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,Express,MongoDB,1,1,1,0,34,large,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,Express,PostgreSQL,1,1,0,0,3,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+JavaScript,Express,MongoDB,0,1,0,0,4,small,512,Serverless_Microfunction,AWS,AWS Lambda
+Go,None,None,0,0,0,0,0,medium,256,Stateful_Monolith_VM,GCP,GCP Compute Engine
+JavaScript,Express,PostgreSQL,1,1,0,0,4,medium,512,Containerized_Microservice,GCP,GCP Cloud Run
+Python,Flask,PostgreSQL,0,1,0,0,3,small,512,Serverless_Microfunction,AWS,AWS Lambda
+Python,FastAPI,PostgreSQL,1,1,1,1,22,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Java,Spring Boot,PostgreSQL,1,1,1,1,18,medium,1536,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Python,Flask,PostgreSQL,0,1,0,0,4,medium,512,Stateful_Monolith_VM,GCP,GCP Compute Engine
+Java,None,PostgreSQL,0,1,1,0,17,medium,1536,Stateful_Monolith_VM,AWS,AWS EC2
+JavaScript,Express,MongoDB,1,1,0,0,10,medium,512,Containerized_Microservice,GCP,GCP Cloud Run
+Java,Spring Boot,MySQL,1,1,1,0,57,large,1536,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+JavaScript,Express,PostgreSQL,1,1,1,1,16,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Go,Gin,MySQL,1,1,0,1,17,medium,256,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Go,None,PostgreSQL,1,1,1,1,22,medium,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,Express,MySQL,0,1,1,0,23,medium,768,Stateful_Monolith_VM,AWS,AWS EC2
+Python,FastAPI,PostgreSQL,1,1,1,0,20,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,Django,MySQL,1,1,1,1,31,large,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,NestJS,PostgreSQL,1,1,1,0,19,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Java,Spring Boot,PostgreSQL,1,1,0,0,4,medium,1024,Containerized_Microservice,AWS,AWS ECS Fargate
+JavaScript,Express,MongoDB,1,1,1,1,14,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,Other,Firestore,0,1,0,1,18,medium,512,Stateful_Monolith_VM,GCP,GCP Compute Engine
+Python,Flask,PostgreSQL,0,1,0,0,5,small,512,Serverless_Microfunction,AWS,AWS Lambda
+Python,FastAPI,PostgreSQL,1,1,0,0,2,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+Go,None,MongoDB,0,1,0,0,6,medium,256,Stateful_Monolith_VM,GCP,GCP Compute Engine
+Python,Flask,Firestore,0,1,0,0,1,small,512,Serverless_Microfunction,GCP,GCP Cloud Functions
+JavaScript,Express,MongoDB,0,1,1,0,12,medium,768,Stateful_Monolith_VM,GCP,GCP Compute Engine
+Java,None,None,0,0,0,0,0,small,1024,Stateful_Monolith_VM,AWS,AWS EC2
+Python,Flask,None,0,1,0,0,2,small,512,Serverless_Microfunction,AWS,AWS Lambda
+Go,Gin,MySQL,1,1,1,0,6,medium,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,NestJS,DynamoDB,0,1,0,0,3,small,512,Serverless_Microfunction,AWS,AWS Lambda
+JavaScript,Express,MongoDB,1,1,0,0,1,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+JavaScript,NestJS,MongoDB,1,1,0,0,3,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+Python,Django,MongoDB,1,1,1,0,31,large,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Java,Spring Boot,PostgreSQL,1,1,1,1,14,medium,1536,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Python,FastAPI,PostgreSQL,1,1,1,1,58,large,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Go,Gin,MongoDB,1,1,1,0,18,medium,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Java,Spring Boot,PostgreSQL,1,1,0,0,7,medium,1024,Containerized_Microservice,AWS,AWS ECS Fargate
+Java,Spring Boot,PostgreSQL,1,1,1,1,47,large,1536,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Java,Spring Boot,PostgreSQL,1,1,0,0,17,medium,1024,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Other,Other,PostgreSQL,0,0,1,0,0,medium,512,Stateful_Monolith_VM,GCP,GCP Compute Engine
+Python,Flask,MySQL,1,1,1,1,13,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Go,None,None,1,0,0,0,0,small,256,Containerized_Microservice,GCP,GCP Cloud Run
+Python,FastAPI,PostgreSQL,0,1,0,0,63,large,512,Stateful_Monolith_VM,AWS,AWS EC2
+Java,Spring Boot,MySQL,1,1,1,1,22,medium,1536,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+JavaScript,None,None,0,0,1,0,0,medium,768,Stateful_Monolith_VM,AWS,AWS EC2
+JavaScript,Express,MySQL,1,1,1,0,21,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,Express,PostgreSQL,1,1,0,0,12,medium,512,Containerized_Microservice,GCP,GCP Cloud Run
+Python,Flask,PostgreSQL,1,1,0,0,6,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+JavaScript,NestJS,MySQL,0,1,1,1,23,medium,768,Stateful_Monolith_VM,AWS,AWS EC2
+Python,None,MongoDB,0,1,1,0,11,medium,768,Stateful_Monolith_VM,GCP,GCP Compute Engine
+Go,Gin,PostgreSQL,1,1,0,0,17,medium,256,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,Django,MongoDB,1,1,1,0,34,large,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Go,None,None,0,0,0,0,0,small,256,Stateful_Monolith_VM,GCP,GCP Compute Engine
+Python,Flask,PostgreSQL,1,1,0,0,10,medium,512,Containerized_Microservice,GCP,GCP Cloud Run
+Python,FastAPI,PostgreSQL,0,1,0,0,3,small,512,Serverless_Microfunction,AWS,AWS Lambda
+Python,FastAPI,PostgreSQL,1,1,0,1,20,medium,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Go,None,DynamoDB,1,1,0,0,7,small,256,Containerized_Microservice,GCP,GCP Cloud Run
+JavaScript,NestJS,PostgreSQL,1,1,0,0,6,medium,512,Containerized_Microservice,GCP,GCP Cloud Run
+Other,None,None,0,0,1,0,0,medium,512,Stateful_Monolith_VM,AWS,AWS EC2
+JavaScript,Express,None,0,1,0,0,7,small,512,Serverless_Microfunction,AWS,AWS Lambda
+Python,FastAPI,PostgreSQL,1,1,0,0,19,medium,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,Flask,Firestore,0,1,0,0,6,small,512,Serverless_Microfunction,GCP,GCP Cloud Functions
+JavaScript,NestJS,PostgreSQL,1,1,1,1,17,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,Express,MySQL,1,1,1,0,6,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Other,None,None,0,0,0,0,0,small,256,Stateful_Monolith_VM,AWS,AWS EC2
+Java,Spring Boot,PostgreSQL,1,1,0,0,12,medium,1024,Containerized_Microservice,GCP,GCP Cloud Run
+Java,Spring Boot,MySQL,1,1,1,1,63,large,1536,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+JavaScript,None,None,1,0,0,0,0,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+Go,Gin,DynamoDB,1,1,1,0,19,medium,512,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Java,Spring Boot,PostgreSQL,1,1,1,0,44,large,1536,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Go,Gin,Firestore,1,1,0,0,23,medium,256,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,FastAPI,PostgreSQL,1,1,1,1,16,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,Django,MongoDB,0,1,1,0,14,medium,768,Stateful_Monolith_VM,AWS,AWS EC2
+Go,Gin,MySQL,0,1,0,1,16,medium,256,Stateful_Monolith_VM,GCP,GCP Compute Engine
+Python,FastAPI,PostgreSQL,0,1,1,0,54,large,768,Stateful_Monolith_VM,GCP,GCP Compute Engine
+Go,None,None,1,0,0,1,0,medium,256,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Java,Spring Boot,PostgreSQL,1,1,1,1,60,large,1536,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Other,Other,PostgreSQL,1,0,0,0,0,small,256,Containerized_Microservice,GCP,GCP Cloud Run
+Python,FastAPI,PostgreSQL,1,1,1,0,5,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,FastAPI,PostgreSQL,1,1,0,0,3,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+JavaScript,Express,None,0,1,1,0,21,medium,768,Stateful_Monolith_VM,GCP,GCP Compute Engine
+Python,FastAPI,PostgreSQL,0,1,1,1,20,medium,768,Stateful_Monolith_VM,GCP,GCP Compute Engine
+JavaScript,None,PostgreSQL,1,1,0,0,1,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+Java,Spring Boot,PostgreSQL,0,1,0,1,42,large,1024,Stateful_Monolith_VM,AWS,AWS EC2
+JavaScript,None,None,0,0,1,0,0,small,768,Stateful_Monolith_VM,GCP,GCP Compute Engine
+Python,Flask,MongoDB,0,1,1,0,3,small,768,Serverless_Microfunction,AWS,AWS Lambda
+JavaScript,Express,PostgreSQL,0,1,0,0,2,small,512,Serverless_Microfunction,AWS,AWS Lambda
+Java,Spring Boot,PostgreSQL,1,1,1,0,61,large,1536,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,Other,Firestore,0,0,0,0,0,small,512,Stateful_Monolith_VM,GCP,GCP Compute Engine
+Python,Flask,MySQL,0,1,0,0,6,small,512,Serverless_Microfunction,AWS,AWS Lambda
+Python,FastAPI,PostgreSQL,1,1,0,1,16,medium,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,Express,PostgreSQL,1,1,1,1,23,medium,768,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Go,None,None,0,0,0,0,0,small,256,Stateful_Monolith_VM,GCP,GCP Compute Engine
+JavaScript,Express,MongoDB,1,1,1,0,19,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Other,None,PostgreSQL,1,1,1,0,17,medium,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,NestJS,None,1,1,0,0,7,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+Go,Other,DynamoDB,0,1,1,0,19,medium,512,Stateful_Monolith_VM,AWS,AWS EC2
+Java,Spring Boot,PostgreSQL,0,1,1,0,20,large,1536,Stateful_Monolith_VM,AWS,AWS EC2
+JavaScript,Express,PostgreSQL,1,1,1,1,12,medium,768,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Python,Flask,DynamoDB,0,1,1,0,4,medium,768,Stateful_Monolith_VM,AWS,AWS EC2
+Python,Flask,PostgreSQL,0,1,1,1,4,medium,768,Stateful_Monolith_VM,AWS,AWS EC2
+JavaScript,None,None,0,0,0,0,0,medium,512,Stateful_Monolith_VM,AWS,AWS EC2
+Java,Spring Boot,PostgreSQL,1,1,1,1,12,medium,1536,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Go,Gin,MySQL,0,1,1,1,5,medium,512,Stateful_Monolith_VM,GCP,GCP Compute Engine
+JavaScript,Express,PostgreSQL,0,1,0,0,2,small,512,Serverless_Microfunction,AWS,AWS Lambda
+Python,Flask,MongoDB,1,1,0,0,2,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+Go,Gin,MySQL,1,1,1,0,11,medium,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,FastAPI,PostgreSQL,0,1,1,0,18,medium,768,Stateful_Monolith_VM,GCP,GCP Compute Engine
+Python,Flask,MongoDB,0,1,0,0,3,small,512,Serverless_Microfunction,AWS,AWS Lambda
+Python,None,MySQL,0,1,0,0,7,small,512,Serverless_Microfunction,AWS,AWS Lambda
+Python,FastAPI,PostgreSQL,1,1,1,0,5,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,FastAPI,PostgreSQL,0,1,1,1,18,medium,768,Stateful_Monolith_VM,AWS,AWS EC2
+Python,Flask,PostgreSQL,0,1,1,0,6,small,768,Serverless_Microfunction,AWS,AWS Lambda
+JavaScript,None,MySQL,0,1,0,0,2,small,512,Serverless_Microfunction,AWS,AWS Lambda
+JavaScript,Express,PostgreSQL,0,1,0,0,10,medium,512,Stateful_Monolith_VM,GCP,GCP Compute Engine
+Java,Spring Boot,PostgreSQL,1,1,1,0,58,large,1536,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,FastAPI,MongoDB,1,1,1,1,68,large,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,Flask,MongoDB,0,1,0,0,5,small,512,Serverless_Microfunction,AWS,AWS Lambda
+JavaScript,Express,PostgreSQL,1,1,0,0,2,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+Python,Flask,PostgreSQL,1,1,0,0,1,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+JavaScript,Express,None,0,1,1,0,5,medium,768,Stateful_Monolith_VM,AWS,AWS EC2
+JavaScript,Express,MySQL,1,1,0,0,2,small,512,Containerized_Microservice,AWS,AWS ECS Fargate
+Python,Django,MongoDB,1,1,0,0,36,large,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Go,Gin,None,1,1,0,0,3,small,256,Containerized_Microservice,GCP,GCP Cloud Run
+Python,FastAPI,MongoDB,1,1,0,0,4,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+Python,Django,Firestore,1,1,1,1,48,large,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,Django,PostgreSQL,0,1,1,0,6,medium,768,Stateful_Monolith_VM,AWS,AWS EC2
+Python,Flask,PostgreSQL,0,1,0,0,5,small,512,Serverless_Microfunction,AWS,AWS Lambda
+JavaScript,Express,MongoDB,0,1,0,0,7,small,512,Serverless_Microfunction,AWS,AWS Lambda
+Python,FastAPI,PostgreSQL,1,1,1,0,23,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,Flask,DynamoDB,1,1,1,0,16,medium,768,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+JavaScript,NestJS,DynamoDB,1,1,1,1,18,medium,768,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Other,None,MongoDB,0,1,0,0,4,small,256,Serverless_Microfunction,AWS,AWS Lambda
+Python,FastAPI,PostgreSQL,1,1,0,1,14,medium,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,Flask,PostgreSQL,0,1,0,1,11,medium,512,Stateful_Monolith_VM,AWS,AWS EC2
+Python,None,DynamoDB,0,1,0,0,1,small,512,Serverless_Microfunction,AWS,AWS Lambda
+Other,Other,MongoDB,0,1,0,1,14,medium,256,Stateful_Monolith_VM,GCP,GCP Compute Engine
+Java,Spring Boot,MySQL,1,1,0,1,17,medium,1024,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Python,FastAPI,PostgreSQL,1,1,0,0,1,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+Python,Django,PostgreSQL,1,1,1,1,36,large,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,Express,MongoDB,1,1,1,0,4,medium,768,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Java,Spring Boot,PostgreSQL,1,1,0,0,22,medium,1024,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Python,FastAPI,PostgreSQL,1,1,1,1,49,large,768,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Python,Flask,PostgreSQL,0,1,0,1,7,medium,512,Stateful_Monolith_VM,AWS,AWS EC2
+Java,Other,PostgreSQL,0,1,0,0,6,small,1024,Serverless_Microfunction,AWS,AWS Lambda
+JavaScript,Express,MongoDB,0,1,1,1,26,large,768,Stateful_Monolith_VM,AWS,AWS EC2
+JavaScript,Express,MongoDB,1,1,0,0,3,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+Python,FastAPI,PostgreSQL,0,1,0,0,5,medium,512,Stateful_Monolith_VM,GCP,GCP Compute Engine
+JavaScript,Other,MySQL,1,1,1,0,4,small,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Java,Spring Boot,MySQL,1,1,1,1,53,large,1536,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Java,Spring Boot,PostgreSQL,1,1,1,1,15,medium,1536,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+JavaScript,Express,None,1,1,0,0,7,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+Python,FastAPI,PostgreSQL,1,1,1,0,21,large,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,FastAPI,MongoDB,0,1,0,0,2,small,512,Serverless_Microfunction,AWS,AWS Lambda
+Python,Flask,PostgreSQL,0,1,1,0,21,medium,768,Stateful_Monolith_VM,AWS,AWS EC2
+JavaScript,NestJS,PostgreSQL,1,1,0,0,7,medium,512,Containerized_Microservice,GCP,GCP Cloud Run
+Java,Spring Boot,PostgreSQL,1,1,1,1,16,medium,1536,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Python,Django,DynamoDB,1,1,0,1,18,medium,512,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Java,None,None,0,0,0,0,0,small,1024,Stateful_Monolith_VM,AWS,AWS EC2
+Python,Flask,MySQL,0,1,1,0,3,small,768,Serverless_Microfunction,AWS,AWS Lambda
+Python,Other,MySQL,0,1,0,0,11,medium,512,Stateful_Monolith_VM,AWS,AWS EC2
+JavaScript,Express,MongoDB,1,1,1,1,24,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,Flask,MongoDB,0,1,1,1,16,medium,768,Stateful_Monolith_VM,AWS,AWS EC2
+Python,Flask,PostgreSQL,0,1,0,0,2,small,512,Serverless_Microfunction,AWS,AWS Lambda
+Python,Flask,MongoDB,0,1,0,0,5,small,512,Serverless_Microfunction,AWS,AWS Lambda
+JavaScript,Express,None,1,1,1,1,21,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,FastAPI,PostgreSQL,1,1,0,0,5,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+JavaScript,None,None,0,0,0,0,0,small,512,Stateful_Monolith_VM,AWS,AWS EC2
+Go,Gin,PostgreSQL,1,1,1,1,22,medium,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Java,Spring Boot,PostgreSQL,1,1,1,1,16,medium,1536,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Python,FastAPI,PostgreSQL,1,1,1,0,23,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,FastAPI,MongoDB,1,1,1,0,18,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,NestJS,PostgreSQL,1,1,1,0,56,large,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,FastAPI,PostgreSQL,0,1,0,1,56,large,512,Stateful_Monolith_VM,GCP,GCP Compute Engine
+Java,Spring Boot,MySQL,0,1,0,0,10,medium,1024,Stateful_Monolith_VM,AWS,AWS EC2
+JavaScript,Other,MongoDB,0,0,0,0,0,small,512,Stateful_Monolith_VM,AWS,AWS EC2
+Python,Flask,PostgreSQL,1,1,0,0,2,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+Java,None,None,0,0,1,0,0,medium,1536,Stateful_Monolith_VM,AWS,AWS EC2
+JavaScript,Express,MongoDB,1,1,1,1,19,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,Django,None,1,1,1,0,48,large,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,FastAPI,PostgreSQL,1,1,1,0,14,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,NestJS,DynamoDB,1,1,0,0,23,medium,512,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+JavaScript,Express,MongoDB,0,1,1,0,6,medium,768,Stateful_Monolith_VM,AWS,AWS EC2
+JavaScript,Express,MongoDB,1,1,1,1,24,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,NestJS,PostgreSQL,1,1,0,0,17,large,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Java,Spring Boot,PostgreSQL,1,1,1,1,21,medium,1536,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Java,Spring Boot,PostgreSQL,0,1,0,0,61,large,1024,Stateful_Monolith_VM,AWS,AWS EC2
+Python,FastAPI,PostgreSQL,1,1,0,0,9,medium,512,Containerized_Microservice,GCP,GCP Cloud Run
+Java,Spring Boot,MySQL,1,1,0,0,24,medium,1024,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,None,MySQL,0,1,0,1,20,medium,512,Stateful_Monolith_VM,GCP,GCP Compute Engine
+Python,FastAPI,None,1,1,0,0,5,medium,512,Containerized_Microservice,GCP,GCP Cloud Run
+Go,Gin,PostgreSQL,1,1,0,0,4,small,256,Containerized_Microservice,GCP,GCP Cloud Run
+Java,Spring Boot,PostgreSQL,1,1,0,1,20,large,1024,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,NestJS,DynamoDB,0,1,0,1,13,medium,512,Stateful_Monolith_VM,AWS,AWS EC2
+JavaScript,Express,PostgreSQL,0,1,1,0,21,medium,768,Stateful_Monolith_VM,AWS,AWS EC2
+Python,FastAPI,PostgreSQL,1,1,0,1,22,medium,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Other,Other,MongoDB,1,1,0,0,7,small,256,Containerized_Microservice,GCP,GCP Cloud Run
+Java,None,None,1,0,0,0,0,small,1024,Containerized_Microservice,GCP,GCP Cloud Run
+Python,FastAPI,MongoDB,1,1,0,0,17,medium,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,Django,PostgreSQL,0,1,0,1,24,medium,512,Stateful_Monolith_VM,GCP,GCP Compute Engine
+Java,Spring Boot,PostgreSQL,1,1,0,0,54,large,1024,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+JavaScript,None,MongoDB,1,1,1,1,19,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,NestJS,PostgreSQL,1,1,1,0,23,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Go,Gin,PostgreSQL,1,1,0,0,4,medium,256,Containerized_Microservice,GCP,GCP Cloud Run
+Python,Django,DynamoDB,0,1,1,0,9,medium,768,Stateful_Monolith_VM,AWS,AWS EC2
+Go,Other,DynamoDB,0,1,1,0,21,medium,512,Stateful_Monolith_VM,AWS,AWS EC2
+Go,Gin,PostgreSQL,1,1,0,0,7,medium,256,Containerized_Microservice,GCP,GCP Cloud Run
+Go,Gin,MySQL,1,1,1,1,20,medium,512,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+JavaScript,Express,PostgreSQL,0,1,0,1,4,medium,512,Stateful_Monolith_VM,AWS,AWS EC2
+Python,Flask,MySQL,1,1,0,0,1,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+Python,None,MySQL,0,1,0,0,2,small,512,Serverless_Microfunction,AWS,AWS Lambda
+Python,FastAPI,MongoDB,1,1,1,1,32,large,768,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+JavaScript,Express,MongoDB,1,1,1,1,15,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,Express,MongoDB,0,1,0,0,32,large,512,Stateful_Monolith_VM,AWS,AWS EC2
+Python,FastAPI,MongoDB,1,1,0,0,6,medium,512,Containerized_Microservice,GCP,GCP Cloud Run
+Java,None,None,1,0,0,0,0,medium,1024,Containerized_Microservice,AWS,AWS ECS Fargate
+JavaScript,NestJS,MongoDB,1,1,1,1,19,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,FastAPI,None,1,1,0,0,4,small,512,Containerized_Microservice,AWS,AWS ECS Fargate
+JavaScript,None,PostgreSQL,0,1,0,0,6,small,512,Serverless_Microfunction,AWS,AWS Lambda
+JavaScript,Express,PostgreSQL,1,1,0,0,6,medium,512,Containerized_Microservice,GCP,GCP Cloud Run
+Python,None,PostgreSQL,1,1,0,0,4,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+JavaScript,None,MySQL,1,1,0,0,3,small,512,Containerized_Microservice,AWS,AWS ECS Fargate
+Python,Django,MongoDB,1,1,1,1,67,large,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,None,MongoDB,1,1,1,1,17,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,NestJS,MySQL,1,1,0,0,3,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+Python,Flask,PostgreSQL,1,1,0,1,8,medium,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,Flask,MySQL,0,1,0,0,4,small,512,Serverless_Microfunction,GCP,GCP Cloud Functions
+Java,Spring Boot,MySQL,1,1,0,0,15,medium,1024,Containerized_Microservice,AWS,AWS ECS Fargate
+Python,FastAPI,PostgreSQL,1,1,0,1,37,large,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Go,Gin,PostgreSQL,1,1,0,1,21,medium,256,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,FastAPI,PostgreSQL,1,1,1,0,4,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,NestJS,DynamoDB,1,1,0,0,2,small,512,Containerized_Microservice,AWS,AWS ECS Fargate
+JavaScript,Express,MySQL,1,1,1,0,10,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,Express,MongoDB,1,1,1,0,11,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Other,Other,DynamoDB,0,1,0,0,11,medium,256,Stateful_Monolith_VM,AWS,AWS EC2
+Python,FastAPI,PostgreSQL,1,1,1,1,11,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,FastAPI,MongoDB,0,1,1,0,15,medium,768,Stateful_Monolith_VM,AWS,AWS EC2
+Python,FastAPI,MongoDB,1,1,0,0,12,medium,512,Containerized_Microservice,GCP,GCP Cloud Run
+JavaScript,Express,PostgreSQL,1,1,1,1,13,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,FastAPI,PostgreSQL,0,1,1,0,8,medium,768,Stateful_Monolith_VM,GCP,GCP Compute Engine
+Java,Spring Boot,PostgreSQL,1,1,1,1,44,large,1536,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Java,None,MySQL,0,1,0,0,6,small,1024,Serverless_Microfunction,AWS,AWS Lambda
+Other,None,None,0,1,0,0,2,small,256,Serverless_Microfunction,AWS,AWS Lambda
+Java,None,PostgreSQL,1,1,0,0,6,small,1024,Containerized_Microservice,GCP,GCP Cloud Run
+Python,Other,MySQL,1,0,1,0,0,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Java,Spring Boot,PostgreSQL,1,1,1,1,48,large,1536,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Java,Spring Boot,PostgreSQL,1,1,0,1,8,medium,1024,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Python,FastAPI,PostgreSQL,1,1,0,1,7,medium,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,NestJS,PostgreSQL,0,1,0,0,7,small,512,Serverless_Microfunction,AWS,AWS Lambda
+Python,Flask,PostgreSQL,0,1,0,0,7,medium,512,Stateful_Monolith_VM,AWS,AWS EC2
+JavaScript,None,MySQL,0,1,0,1,15,medium,512,Stateful_Monolith_VM,AWS,AWS EC2
+Python,Other,Firestore,0,0,0,0,0,small,512,Stateful_Monolith_VM,GCP,GCP Compute Engine
+Python,FastAPI,PostgreSQL,0,1,1,1,23,medium,768,Stateful_Monolith_VM,AWS,AWS EC2
+Python,Flask,MySQL,0,1,0,0,7,small,512,Serverless_Microfunction,AWS,AWS Lambda
+Other,None,DynamoDB,0,1,1,0,7,small,512,Serverless_Microfunction,AWS,AWS Lambda
+Go,Gin,DynamoDB,1,1,0,1,21,medium,256,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,Express,PostgreSQL,0,1,0,0,9,medium,512,Stateful_Monolith_VM,AWS,AWS EC2
+Go,Gin,PostgreSQL,1,1,1,0,18,medium,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,Flask,MySQL,0,1,1,0,3,small,768,Serverless_Microfunction,AWS,AWS Lambda
+Java,Spring Boot,PostgreSQL,0,1,0,0,20,medium,1024,Stateful_Monolith_VM,AWS,AWS EC2
+Python,FastAPI,PostgreSQL,0,1,1,0,34,large,768,Stateful_Monolith_VM,GCP,GCP Compute Engine
+Java,Other,PostgreSQL,1,1,1,0,5,small,1536,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Java,Spring Boot,PostgreSQL,1,1,0,1,17,medium,1024,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Python,Django,MySQL,0,1,0,0,12,medium,512,Stateful_Monolith_VM,AWS,AWS EC2
+Python,Django,PostgreSQL,0,1,1,1,20,medium,768,Stateful_Monolith_VM,AWS,AWS EC2
+Java,Spring Boot,PostgreSQL,0,1,1,0,53,large,1536,Stateful_Monolith_VM,AWS,AWS EC2
+JavaScript,Express,MySQL,1,1,0,0,3,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+Go,Other,MongoDB,0,0,0,0,0,small,256,Stateful_Monolith_VM,GCP,GCP Compute Engine
+Java,Spring Boot,PostgreSQL,1,1,0,0,4,medium,1024,Containerized_Microservice,AWS,AWS ECS Fargate
+JavaScript,NestJS,MongoDB,1,1,0,1,10,medium,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,Express,MySQL,1,1,1,0,22,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,Other,MongoDB,1,0,0,0,0,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+Python,FastAPI,MongoDB,0,1,1,0,9,medium,768,Stateful_Monolith_VM,GCP,GCP Compute Engine
+JavaScript,Express,PostgreSQL,1,1,0,0,6,medium,512,Containerized_Microservice,GCP,GCP Cloud Run
+Java,Spring Boot,MySQL,1,1,0,0,54,large,1024,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Java,Spring Boot,PostgreSQL,1,1,0,0,6,medium,1024,Containerized_Microservice,GCP,GCP Cloud Run
+Other,None,DynamoDB,1,1,1,1,13,medium,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,None,PostgreSQL,0,1,0,0,2,small,512,Serverless_Microfunction,AWS,AWS Lambda
+Python,None,MySQL,1,1,0,0,2,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+Java,None,None,0,0,0,0,0,medium,1024,Stateful_Monolith_VM,AWS,AWS EC2
+JavaScript,Express,MongoDB,0,1,0,0,10,medium,512,Stateful_Monolith_VM,GCP,GCP Compute Engine
+JavaScript,Other,MySQL,0,0,0,0,0,small,512,Stateful_Monolith_VM,GCP,GCP Compute Engine
+JavaScript,Express,MySQL,0,1,1,1,42,large,768,Stateful_Monolith_VM,AWS,AWS EC2
+Python,FastAPI,PostgreSQL,0,1,1,0,48,large,768,Stateful_Monolith_VM,GCP,GCP Compute Engine
+Go,None,PostgreSQL,1,1,0,0,6,small,256,Containerized_Microservice,GCP,GCP Cloud Run
+Other,Other,MySQL,0,1,0,0,2,small,256,Serverless_Microfunction,AWS,AWS Lambda
+Python,Django,MySQL,1,1,0,0,34,large,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,Express,MongoDB,1,1,0,1,24,large,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Go,Other,MongoDB,0,1,1,1,24,medium,512,Stateful_Monolith_VM,AWS,AWS EC2
+Python,Flask,MySQL,0,1,1,0,16,medium,768,Stateful_Monolith_VM,GCP,GCP Compute Engine
+Java,Spring Boot,PostgreSQL,0,1,1,0,17,medium,1536,Stateful_Monolith_VM,AWS,AWS EC2
+JavaScript,Express,MongoDB,0,1,1,0,11,medium,768,Stateful_Monolith_VM,GCP,GCP Compute Engine
+Python,Django,PostgreSQL,0,1,1,0,19,medium,768,Stateful_Monolith_VM,GCP,GCP Compute Engine
+JavaScript,Express,MongoDB,1,1,1,1,24,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,Flask,MongoDB,0,1,1,0,11,medium,768,Stateful_Monolith_VM,AWS,AWS EC2
+Other,Other,MongoDB,0,0,0,0,0,small,256,Stateful_Monolith_VM,AWS,AWS EC2
+Java,Spring Boot,PostgreSQL,1,1,0,1,26,large,1024,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Python,Other,PostgreSQL,1,1,0,0,7,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+Go,Gin,PostgreSQL,0,1,0,0,3,small,256,Serverless_Microfunction,GCP,GCP Cloud Functions
+Go,Gin,PostgreSQL,0,1,0,0,4,medium,256,Stateful_Monolith_VM,GCP,GCP Compute Engine
+Other,None,None,0,0,0,0,0,small,256,Stateful_Monolith_VM,GCP,GCP Compute Engine
+Go,Gin,PostgreSQL,1,1,0,0,12,medium,256,Containerized_Microservice,GCP,GCP Cloud Run
+Python,Flask,PostgreSQL,1,1,0,0,3,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+Java,Spring Boot,MySQL,1,1,1,1,14,medium,1536,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Python,FastAPI,MongoDB,1,1,0,0,2,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+Python,Flask,None,0,1,1,0,22,medium,768,Stateful_Monolith_VM,AWS,AWS EC2
+JavaScript,Other,PostgreSQL,0,1,1,0,18,medium,768,Stateful_Monolith_VM,GCP,GCP Compute Engine
+JavaScript,Express,None,0,1,0,0,5,small,512,Serverless_Microfunction,AWS,AWS Lambda
+Python,Django,Firestore,1,1,1,1,47,large,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,Django,PostgreSQL,1,1,0,1,18,large,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,Express,None,1,1,1,0,9,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Other,Other,PostgreSQL,0,1,1,0,6,small,512,Serverless_Microfunction,GCP,GCP Cloud Functions
+Java,Spring Boot,PostgreSQL,1,1,1,0,6,medium,1536,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Java,None,None,1,0,0,0,0,small,1024,Containerized_Microservice,GCP,GCP Cloud Run
+JavaScript,NestJS,MySQL,1,1,1,0,21,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,Flask,DynamoDB,0,1,0,0,3,small,512,Serverless_Microfunction,AWS,AWS Lambda
+Java,Spring Boot,PostgreSQL,1,1,0,1,63,large,1024,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+JavaScript,Express,MongoDB,0,1,1,1,14,medium,768,Stateful_Monolith_VM,AWS,AWS EC2
+Go,None,MongoDB,1,1,0,0,18,medium,256,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,Django,MongoDB,1,1,1,0,47,large,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,Express,MongoDB,0,1,1,0,24,medium,768,Stateful_Monolith_VM,GCP,GCP Compute Engine
+JavaScript,Express,PostgreSQL,0,1,1,1,19,medium,768,Stateful_Monolith_VM,AWS,AWS EC2
+Python,Django,MongoDB,1,1,1,1,56,large,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Go,Gin,MongoDB,0,1,0,1,53,large,256,Stateful_Monolith_VM,GCP,GCP Compute Engine
+Python,None,None,1,0,1,0,0,small,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Go,Other,Firestore,1,0,0,0,0,small,256,Containerized_Microservice,GCP,GCP Cloud Run
+JavaScript,NestJS,MongoDB,1,1,1,0,12,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,None,None,1,0,0,0,0,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+JavaScript,NestJS,MongoDB,0,1,1,1,17,medium,768,Stateful_Monolith_VM,AWS,AWS EC2
+Python,Flask,Firestore,0,1,0,0,7,small,512,Serverless_Microfunction,GCP,GCP Cloud Functions
+Other,Other,MongoDB,1,0,0,0,0,medium,256,Containerized_Microservice,GCP,GCP Cloud Run
+JavaScript,Express,MongoDB,0,1,0,0,1,small,512,Serverless_Microfunction,AWS,AWS Lambda
+Java,Spring Boot,None,1,1,1,1,8,medium,1536,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+JavaScript,Express,MongoDB,1,1,0,1,45,large,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,Flask,MySQL,0,1,0,0,4,small,512,Serverless_Microfunction,AWS,AWS Lambda
+JavaScript,NestJS,PostgreSQL,1,1,0,0,6,medium,512,Containerized_Microservice,GCP,GCP Cloud Run
+Python,Other,PostgreSQL,0,0,0,0,0,small,512,Stateful_Monolith_VM,GCP,GCP Compute Engine
+Java,Spring Boot,PostgreSQL,1,1,0,0,19,medium,1024,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Python,FastAPI,PostgreSQL,1,1,1,0,18,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,FastAPI,MongoDB,1,1,1,1,21,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,Express,PostgreSQL,1,1,0,0,24,medium,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,Express,MySQL,1,1,1,1,10,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,Express,MongoDB,1,1,0,1,68,large,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,None,None,0,0,0,0,0,small,512,Stateful_Monolith_VM,GCP,GCP Compute Engine
+Python,FastAPI,PostgreSQL,1,1,0,0,11,medium,512,Containerized_Microservice,GCP,GCP Cloud Run
+JavaScript,Express,MongoDB,0,1,0,0,12,medium,512,Stateful_Monolith_VM,GCP,GCP Compute Engine
+Python,Flask,MySQL,0,1,0,0,2,small,512,Serverless_Microfunction,GCP,GCP Cloud Functions
+Java,Spring Boot,PostgreSQL,1,1,1,1,13,medium,1536,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Python,Flask,PostgreSQL,0,1,0,0,23,medium,512,Stateful_Monolith_VM,GCP,GCP Compute Engine
+Python,FastAPI,PostgreSQL,0,1,0,1,45,large,512,Stateful_Monolith_VM,GCP,GCP Compute Engine
+JavaScript,NestJS,PostgreSQL,1,1,1,0,21,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Java,Spring Boot,MySQL,1,1,0,1,5,medium,1024,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+JavaScript,Express,PostgreSQL,1,1,1,0,6,medium,768,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Python,Flask,PostgreSQL,0,1,1,1,19,medium,768,Stateful_Monolith_VM,AWS,AWS EC2
+Python,FastAPI,PostgreSQL,1,1,0,0,12,medium,512,Containerized_Microservice,GCP,GCP Cloud Run
+Python,FastAPI,PostgreSQL,1,1,1,1,28,large,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,Express,MongoDB,1,1,1,0,4,small,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,FastAPI,None,0,1,0,0,6,small,512,Serverless_Microfunction,GCP,GCP Cloud Functions
+Python,FastAPI,MongoDB,1,1,1,0,14,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Go,Gin,MongoDB,0,1,0,0,21,medium,256,Stateful_Monolith_VM,GCP,GCP Compute Engine
+Python,None,None,0,0,0,0,0,small,512,Stateful_Monolith_VM,GCP,GCP Compute Engine
+Java,Spring Boot,None,1,1,0,1,24,medium,1024,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,None,None,0,0,0,0,0,small,512,Stateful_Monolith_VM,AWS,AWS EC2
+Java,None,None,0,0,0,0,0,medium,1024,Stateful_Monolith_VM,AWS,AWS EC2
+JavaScript,Express,PostgreSQL,1,1,0,1,23,medium,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,Express,MySQL,0,1,1,0,61,large,768,Stateful_Monolith_VM,GCP,GCP Compute Engine
+Python,Flask,PostgreSQL,0,1,1,0,15,medium,768,Stateful_Monolith_VM,AWS,AWS EC2
+Python,Flask,MySQL,1,1,0,1,11,medium,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Java,Spring Boot,PostgreSQL,1,1,1,1,57,large,1536,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Python,Flask,Firestore,1,1,0,1,18,medium,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,Flask,PostgreSQL,0,1,0,0,3,small,512,Serverless_Microfunction,AWS,AWS Lambda
+JavaScript,Express,MongoDB,0,1,1,0,18,medium,768,Stateful_Monolith_VM,GCP,GCP Compute Engine
+Python,FastAPI,PostgreSQL,1,1,1,0,43,large,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,FastAPI,PostgreSQL,0,1,0,1,12,medium,512,Stateful_Monolith_VM,AWS,AWS EC2
+Python,Flask,PostgreSQL,0,1,0,0,7,small,512,Serverless_Microfunction,AWS,AWS Lambda
+Go,None,MySQL,0,1,1,0,6,small,512,Serverless_Microfunction,GCP,GCP Cloud Functions
+Python,Other,PostgreSQL,0,1,0,0,10,medium,512,Stateful_Monolith_VM,AWS,AWS EC2
+JavaScript,None,None,0,0,1,0,0,medium,768,Stateful_Monolith_VM,AWS,AWS EC2
+JavaScript,Express,MySQL,1,1,0,0,11,medium,512,Containerized_Microservice,GCP,GCP Cloud Run
+Other,Other,MySQL,1,1,1,0,22,medium,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Java,Spring Boot,MySQL,1,1,0,0,11,medium,1024,Containerized_Microservice,AWS,AWS ECS Fargate
+Python,FastAPI,MongoDB,1,1,1,0,20,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,Express,None,1,1,1,0,6,small,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,Express,PostgreSQL,0,1,0,1,15,medium,512,Stateful_Monolith_VM,GCP,GCP Compute Engine
+Go,Gin,DynamoDB,0,1,1,0,8,medium,512,Stateful_Monolith_VM,AWS,AWS EC2
+Go,Gin,PostgreSQL,1,1,1,0,23,medium,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,FastAPI,PostgreSQL,1,1,0,0,22,medium,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,Express,None,1,1,0,0,6,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+JavaScript,Express,PostgreSQL,0,1,0,0,2,small,512,Serverless_Microfunction,AWS,AWS Lambda
+Java,None,None,0,0,0,0,0,small,1024,Stateful_Monolith_VM,AWS,AWS EC2
+Python,FastAPI,None,1,1,0,1,12,medium,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,Express,MongoDB,0,1,1,1,22,medium,768,Stateful_Monolith_VM,AWS,AWS EC2
+Java,Spring Boot,PostgreSQL,1,1,1,0,16,medium,1536,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Python,FastAPI,PostgreSQL,1,1,1,1,10,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Java,Spring Boot,None,1,1,1,0,37,large,1536,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Java,Spring Boot,PostgreSQL,1,1,0,1,5,medium,1024,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Python,Other,Firestore,0,1,0,0,6,small,512,Serverless_Microfunction,GCP,GCP Cloud Functions
+Python,None,MongoDB,0,1,1,0,14,medium,768,Stateful_Monolith_VM,GCP,GCP Compute Engine
+Other,None,None,0,0,0,0,0,small,256,Stateful_Monolith_VM,GCP,GCP Compute Engine
+Python,Flask,PostgreSQL,1,1,1,0,23,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,FastAPI,PostgreSQL,1,1,1,1,31,large,768,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+JavaScript,Express,MongoDB,1,1,0,1,10,medium,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Java,None,None,0,0,0,0,0,small,1024,Stateful_Monolith_VM,AWS,AWS EC2
+JavaScript,Express,MongoDB,1,1,0,0,2,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+JavaScript,NestJS,PostgreSQL,1,1,1,0,6,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,Express,MongoDB,1,1,0,0,5,medium,512,Containerized_Microservice,AWS,AWS ECS Fargate
+Python,Django,MongoDB,1,1,1,0,59,large,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,FastAPI,PostgreSQL,1,1,0,1,9,medium,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Java,Spring Boot,MySQL,1,1,0,0,10,medium,1024,Containerized_Microservice,AWS,AWS ECS Fargate
+Python,FastAPI,PostgreSQL,0,1,0,1,18,medium,512,Stateful_Monolith_VM,GCP,GCP Compute Engine
+JavaScript,None,PostgreSQL,0,1,1,1,21,medium,768,Stateful_Monolith_VM,AWS,AWS EC2
+JavaScript,Express,PostgreSQL,1,1,0,0,5,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+Python,Flask,MongoDB,1,1,1,1,7,medium,768,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Python,FastAPI,PostgreSQL,1,1,0,0,5,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+Python,FastAPI,PostgreSQL,0,1,0,1,25,large,512,Stateful_Monolith_VM,GCP,GCP Compute Engine
+JavaScript,Express,MongoDB,1,1,1,1,17,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Java,Spring Boot,PostgreSQL,1,1,0,1,56,large,1024,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Java,None,PostgreSQL,1,1,0,0,5,small,1024,Containerized_Microservice,GCP,GCP Cloud Run
+Java,None,None,0,0,0,0,0,small,1024,Stateful_Monolith_VM,AWS,AWS EC2
+Python,Django,DynamoDB,0,1,1,0,20,medium,768,Stateful_Monolith_VM,AWS,AWS EC2
+Java,Spring Boot,PostgreSQL,0,1,1,0,14,medium,1536,Stateful_Monolith_VM,AWS,AWS EC2
+JavaScript,Other,MySQL,0,0,1,0,0,medium,768,Stateful_Monolith_VM,AWS,AWS EC2
+Python,FastAPI,PostgreSQL,1,1,0,0,1,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+JavaScript,NestJS,None,0,1,0,0,2,small,512,Serverless_Microfunction,AWS,AWS Lambda
+Python,Django,DynamoDB,0,1,1,0,19,medium,768,Stateful_Monolith_VM,AWS,AWS EC2
+Python,FastAPI,PostgreSQL,1,1,0,0,10,medium,512,Containerized_Microservice,GCP,GCP Cloud Run
+Java,None,PostgreSQL,0,1,1,1,19,medium,1536,Stateful_Monolith_VM,AWS,AWS EC2
+Python,FastAPI,PostgreSQL,1,1,1,1,59,large,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,Flask,None,0,1,0,0,7,small,512,Serverless_Microfunction,GCP,GCP Cloud Functions
+Python,FastAPI,PostgreSQL,1,1,1,0,19,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Java,Spring Boot,MySQL,0,1,0,1,13,medium,1024,Stateful_Monolith_VM,AWS,AWS EC2
+Python,Other,None,0,1,0,0,7,small,512,Serverless_Microfunction,AWS,AWS Lambda
+Python,FastAPI,PostgreSQL,1,1,1,0,24,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,Django,PostgreSQL,1,1,0,0,9,medium,512,Containerized_Microservice,AWS,AWS ECS Fargate
+Java,Spring Boot,None,1,1,1,1,14,medium,1536,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Java,Spring Boot,PostgreSQL,1,1,1,0,18,medium,1536,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+JavaScript,Express,MongoDB,0,1,1,1,5,medium,768,Stateful_Monolith_VM,AWS,AWS EC2
+Java,Spring Boot,PostgreSQL,0,1,0,1,6,medium,1024,Stateful_Monolith_VM,AWS,AWS EC2
+Java,Spring Boot,None,0,1,1,1,55,large,1536,Stateful_Monolith_VM,AWS,AWS EC2
+Python,FastAPI,PostgreSQL,0,1,1,0,6,medium,768,Stateful_Monolith_VM,GCP,GCP Compute Engine
+Python,None,None,0,0,0,0,0,small,512,Stateful_Monolith_VM,AWS,AWS EC2
+JavaScript,Express,MongoDB,0,1,0,0,6,small,512,Serverless_Microfunction,AWS,AWS Lambda
+JavaScript,NestJS,PostgreSQL,1,1,0,0,1,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+JavaScript,Express,MongoDB,1,1,0,0,1,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+JavaScript,Express,MongoDB,1,1,1,0,4,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Go,Gin,MySQL,1,1,0,0,23,medium,256,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Go,Gin,PostgreSQL,1,1,1,0,15,medium,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,Express,MySQL,1,1,1,1,9,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,FastAPI,PostgreSQL,1,1,0,0,3,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+Python,FastAPI,MongoDB,1,1,0,1,19,medium,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,Express,None,0,1,1,0,61,large,768,Stateful_Monolith_VM,AWS,AWS EC2
+Python,FastAPI,MongoDB,1,1,1,1,8,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,Flask,None,1,1,1,0,24,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,Django,PostgreSQL,1,1,0,1,69,large,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,Flask,MySQL,0,1,0,0,4,small,512,Serverless_Microfunction,AWS,AWS Lambda
+JavaScript,Express,PostgreSQL,0,1,0,1,39,large,512,Stateful_Monolith_VM,GCP,GCP Compute Engine
+JavaScript,NestJS,MySQL,1,1,1,0,22,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Go,Other,MySQL,0,1,0,0,6,small,256,Serverless_Microfunction,GCP,GCP Cloud Functions
+JavaScript,Express,MongoDB,1,1,1,1,37,large,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,NestJS,PostgreSQL,1,1,1,1,20,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,FastAPI,PostgreSQL,1,1,1,1,14,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,FastAPI,PostgreSQL,1,1,0,1,21,medium,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Other,Other,MongoDB,0,0,0,0,0,small,256,Stateful_Monolith_VM,GCP,GCP Compute Engine
+JavaScript,Express,MongoDB,0,1,0,0,15,medium,512,Stateful_Monolith_VM,GCP,GCP Compute Engine
+Go,Gin,MySQL,1,1,1,1,22,medium,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,Flask,PostgreSQL,0,1,0,1,10,medium,512,Stateful_Monolith_VM,GCP,GCP Compute Engine
+Other,Other,PostgreSQL,0,1,0,0,24,medium,256,Stateful_Monolith_VM,GCP,GCP Compute Engine
+JavaScript,NestJS,PostgreSQL,1,1,0,0,4,medium,512,Containerized_Microservice,GCP,GCP Cloud Run
+JavaScript,Express,PostgreSQL,1,1,0,0,12,medium,512,Containerized_Microservice,GCP,GCP Cloud Run
+Python,Django,PostgreSQL,0,1,0,1,16,medium,512,Stateful_Monolith_VM,AWS,AWS EC2
+Python,Other,PostgreSQL,0,1,0,0,7,medium,512,Stateful_Monolith_VM,GCP,GCP Compute Engine
+Go,Gin,None,1,1,1,0,20,medium,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Java,None,None,1,0,0,0,0,medium,1024,Containerized_Microservice,AWS,AWS ECS Fargate
+Java,Spring Boot,PostgreSQL,1,1,1,1,33,large,1536,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Java,Spring Boot,MySQL,1,1,0,1,19,medium,1024,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Other,None,Firestore,0,1,0,0,4,small,256,Serverless_Microfunction,GCP,GCP Cloud Functions
+Go,Gin,PostgreSQL,0,1,0,0,5,small,256,Serverless_Microfunction,GCP,GCP Cloud Functions
+JavaScript,Express,None,0,1,1,0,5,medium,768,Stateful_Monolith_VM,GCP,GCP Compute Engine
+Python,FastAPI,MongoDB,1,1,0,0,18,medium,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,Flask,None,0,1,0,0,7,small,512,Serverless_Microfunction,AWS,AWS Lambda
+Python,Django,MySQL,1,1,0,0,8,medium,512,Containerized_Microservice,GCP,GCP Cloud Run
+JavaScript,Express,MongoDB,0,1,0,0,21,medium,512,Stateful_Monolith_VM,GCP,GCP Compute Engine
+JavaScript,Express,MongoDB,1,1,0,0,4,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+Go,None,None,1,0,0,1,0,medium,256,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Other,None,None,0,0,0,0,0,small,256,Stateful_Monolith_VM,GCP,GCP Compute Engine
+Go,Gin,MySQL,1,1,1,1,17,large,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,NestJS,None,1,1,1,0,23,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,Flask,DynamoDB,1,1,0,0,5,small,512,Containerized_Microservice,AWS,AWS ECS Fargate
+JavaScript,Express,MySQL,1,1,0,0,7,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+Python,FastAPI,PostgreSQL,0,1,0,1,14,medium,512,Stateful_Monolith_VM,GCP,GCP Compute Engine
+JavaScript,Express,None,0,1,1,1,24,medium,768,Stateful_Monolith_VM,AWS,AWS EC2
+Python,Django,MongoDB,1,1,1,1,59,large,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,Express,MongoDB,1,1,0,1,11,medium,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,Express,PostgreSQL,1,1,1,0,20,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,FastAPI,PostgreSQL,0,1,1,1,21,medium,768,Stateful_Monolith_VM,AWS,AWS EC2
+Python,FastAPI,PostgreSQL,1,1,1,0,17,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,Express,MongoDB,1,1,0,0,7,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+JavaScript,Express,MongoDB,1,1,0,0,7,small,512,Containerized_Microservice,AWS,AWS ECS Fargate
+Java,Spring Boot,PostgreSQL,1,1,1,0,23,medium,1536,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,Express,MongoDB,1,1,0,0,18,medium,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,Flask,DynamoDB,0,1,0,0,7,small,512,Serverless_Microfunction,AWS,AWS Lambda
+Java,Other,MySQL,1,1,1,0,12,medium,1536,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+JavaScript,Express,MongoDB,1,1,0,0,12,medium,512,Containerized_Microservice,GCP,GCP Cloud Run
+Python,None,MongoDB,0,1,0,0,4,small,512,Serverless_Microfunction,AWS,AWS Lambda
+Java,Spring Boot,MySQL,1,1,0,1,39,large,1024,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Python,FastAPI,PostgreSQL,1,1,0,1,22,medium,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Other,None,None,0,0,1,0,0,medium,512,Stateful_Monolith_VM,AWS,AWS EC2
+JavaScript,NestJS,PostgreSQL,0,1,0,0,5,small,512,Serverless_Microfunction,GCP,GCP Cloud Functions
+Python,Django,None,0,1,1,1,11,medium,768,Stateful_Monolith_VM,AWS,AWS EC2
+Python,FastAPI,MongoDB,1,1,0,0,6,medium,512,Containerized_Microservice,GCP,GCP Cloud Run
+Go,None,None,0,0,0,0,0,medium,256,Stateful_Monolith_VM,AWS,AWS EC2
+Python,Flask,MySQL,0,1,0,0,5,small,512,Serverless_Microfunction,AWS,AWS Lambda
+JavaScript,Express,PostgreSQL,1,1,0,0,6,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+Go,Gin,MongoDB,1,1,0,0,2,small,256,Containerized_Microservice,GCP,GCP Cloud Run
+JavaScript,Express,PostgreSQL,1,1,0,1,16,medium,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,FastAPI,MongoDB,1,1,1,0,11,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,Express,PostgreSQL,1,1,0,0,7,medium,512,Containerized_Microservice,GCP,GCP Cloud Run
+Python,FastAPI,MongoDB,1,1,1,1,16,medium,768,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Python,Django,Firestore,0,1,0,1,32,large,512,Stateful_Monolith_VM,GCP,GCP Compute Engine
+Python,FastAPI,MongoDB,0,1,0,0,4,medium,512,Stateful_Monolith_VM,GCP,GCP Compute Engine
+Go,None,None,0,0,0,0,0,medium,256,Stateful_Monolith_VM,GCP,GCP Compute Engine
+Python,None,None,0,0,1,0,0,medium,768,Stateful_Monolith_VM,GCP,GCP Compute Engine
+Python,Flask,None,0,1,0,0,1,small,512,Serverless_Microfunction,AWS,AWS Lambda
+Python,Other,MongoDB,1,0,1,1,0,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,Express,PostgreSQL,1,1,0,0,8,medium,512,Containerized_Microservice,GCP,GCP Cloud Run
+Python,FastAPI,MongoDB,0,1,0,0,5,small,512,Serverless_Microfunction,GCP,GCP Cloud Functions
+Python,Flask,MongoDB,1,1,0,0,6,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+Python,Flask,DynamoDB,0,1,1,1,19,medium,768,Stateful_Monolith_VM,AWS,AWS EC2
+Other,Other,PostgreSQL,0,1,1,0,1,small,512,Serverless_Microfunction,AWS,AWS Lambda
+JavaScript,Express,MongoDB,1,1,0,0,7,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+Java,Spring Boot,PostgreSQL,1,1,0,0,45,large,1024,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Python,FastAPI,PostgreSQL,1,1,0,0,51,large,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,FastAPI,PostgreSQL,1,1,1,0,12,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,None,PostgreSQL,0,1,0,0,5,small,512,Serverless_Microfunction,AWS,AWS Lambda
+Java,Spring Boot,PostgreSQL,1,1,0,1,36,large,1024,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Python,Flask,MongoDB,1,1,0,0,4,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+JavaScript,Express,None,1,1,1,1,15,medium,768,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+JavaScript,Other,PostgreSQL,0,1,1,0,19,medium,768,Stateful_Monolith_VM,AWS,AWS EC2
+JavaScript,NestJS,MongoDB,1,1,1,0,22,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,FastAPI,PostgreSQL,1,1,0,0,10,medium,512,Containerized_Microservice,GCP,GCP Cloud Run
+Python,Flask,PostgreSQL,0,1,0,0,7,small,512,Serverless_Microfunction,AWS,AWS Lambda
+JavaScript,Express,MongoDB,0,1,1,0,6,medium,768,Stateful_Monolith_VM,GCP,GCP Compute Engine
+JavaScript,Express,MongoDB,0,1,1,1,8,medium,768,Stateful_Monolith_VM,AWS,AWS EC2
+Python,FastAPI,PostgreSQL,1,1,1,1,20,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,NestJS,MySQL,1,1,1,1,14,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Java,None,PostgreSQL,0,1,0,0,1,small,1024,Serverless_Microfunction,AWS,AWS Lambda
+Python,Flask,MongoDB,0,1,0,0,6,medium,512,Stateful_Monolith_VM,GCP,GCP Compute Engine
+Python,Flask,PostgreSQL,0,1,0,1,22,medium,512,Stateful_Monolith_VM,AWS,AWS EC2
+JavaScript,Express,MongoDB,1,1,1,1,22,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,FastAPI,PostgreSQL,1,1,0,0,4,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+JavaScript,Other,PostgreSQL,0,1,0,0,3,small,512,Serverless_Microfunction,GCP,GCP Cloud Functions
+JavaScript,Express,PostgreSQL,1,1,1,0,20,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,None,DynamoDB,0,1,0,0,1,small,512,Serverless_Microfunction,AWS,AWS Lambda
+Java,Spring Boot,PostgreSQL,1,1,0,0,23,medium,1024,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+JavaScript,Express,MongoDB,0,1,1,0,19,medium,768,Stateful_Monolith_VM,AWS,AWS EC2
+Python,FastAPI,PostgreSQL,1,1,1,0,16,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,FastAPI,PostgreSQL,1,1,1,1,50,large,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,Other,MongoDB,0,1,0,0,3,small,512,Serverless_Microfunction,AWS,AWS Lambda
+JavaScript,Express,MongoDB,1,1,0,0,12,medium,512,Containerized_Microservice,GCP,GCP Cloud Run
+Python,FastAPI,PostgreSQL,0,1,0,0,9,medium,512,Stateful_Monolith_VM,AWS,AWS EC2
+Python,FastAPI,None,1,1,0,1,43,large,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,FastAPI,PostgreSQL,0,1,1,0,6,medium,768,Stateful_Monolith_VM,GCP,GCP Compute Engine
+Java,Spring Boot,MySQL,1,1,1,1,19,large,1536,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+JavaScript,NestJS,None,1,1,0,0,12,medium,512,Containerized_Microservice,GCP,GCP Cloud Run
+Other,Other,MongoDB,0,0,0,0,0,small,256,Stateful_Monolith_VM,GCP,GCP Compute Engine
+Python,Django,MySQL,0,1,0,0,5,medium,512,Stateful_Monolith_VM,GCP,GCP Compute Engine
+JavaScript,NestJS,PostgreSQL,1,1,1,1,13,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Java,Spring Boot,PostgreSQL,1,1,0,0,11,medium,1024,Containerized_Microservice,AWS,AWS ECS Fargate
+Java,None,PostgreSQL,0,1,1,1,18,medium,1536,Stateful_Monolith_VM,AWS,AWS EC2
+Java,Spring Boot,PostgreSQL,1,1,1,0,15,medium,1536,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,NestJS,MongoDB,1,1,1,0,9,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,None,None,1,0,0,0,0,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+Python,FastAPI,MongoDB,1,1,0,0,1,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+JavaScript,Express,PostgreSQL,0,1,0,1,20,medium,512,Stateful_Monolith_VM,GCP,GCP Compute Engine
+JavaScript,Express,MySQL,0,1,1,0,19,medium,768,Stateful_Monolith_VM,AWS,AWS EC2
+Go,Gin,DynamoDB,1,1,0,0,4,medium,256,Containerized_Microservice,AWS,AWS ECS Fargate
+Go,Other,DynamoDB,0,1,0,0,7,medium,256,Stateful_Monolith_VM,AWS,AWS EC2
+Java,Spring Boot,MySQL,1,1,1,0,19,medium,1536,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,FastAPI,PostgreSQL,0,1,0,0,2,small,512,Serverless_Microfunction,AWS,AWS Lambda
+JavaScript,NestJS,None,1,1,0,0,3,small,512,Containerized_Microservice,AWS,AWS ECS Fargate
+Python,FastAPI,PostgreSQL,1,1,0,1,22,medium,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,FastAPI,None,1,1,0,1,7,medium,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Java,Spring Boot,PostgreSQL,1,1,1,0,19,medium,1536,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Python,FastAPI,PostgreSQL,0,1,1,1,9,medium,768,Stateful_Monolith_VM,AWS,AWS EC2
+Java,Spring Boot,None,1,1,1,1,24,medium,1536,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,FastAPI,PostgreSQL,1,1,1,0,21,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,Flask,None,1,1,0,0,6,small,512,Containerized_Microservice,AWS,AWS ECS Fargate
+JavaScript,None,None,0,1,0,0,4,small,512,Serverless_Microfunction,AWS,AWS Lambda
+Java,Spring Boot,PostgreSQL,1,1,0,0,22,medium,1024,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+JavaScript,Express,MongoDB,1,1,0,0,6,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+JavaScript,Express,PostgreSQL,0,1,0,0,5,small,512,Serverless_Microfunction,AWS,AWS Lambda
+JavaScript,Express,MongoDB,0,1,1,0,18,medium,768,Stateful_Monolith_VM,GCP,GCP Compute Engine
+Java,None,None,0,0,0,0,0,medium,1024,Stateful_Monolith_VM,AWS,AWS EC2
+Python,FastAPI,PostgreSQL,1,1,1,0,19,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,NestJS,PostgreSQL,1,1,0,0,2,small,512,Containerized_Microservice,AWS,AWS ECS Fargate
+JavaScript,Express,MongoDB,1,1,1,0,4,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Java,Spring Boot,PostgreSQL,1,1,0,0,13,medium,1024,Containerized_Microservice,AWS,AWS ECS Fargate
+JavaScript,NestJS,MySQL,1,1,0,0,1,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+Python,FastAPI,MongoDB,0,1,0,0,9,medium,512,Stateful_Monolith_VM,GCP,GCP Compute Engine
+Python,FastAPI,MongoDB,1,1,0,0,4,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+JavaScript,Express,PostgreSQL,0,1,0,1,19,medium,512,Stateful_Monolith_VM,GCP,GCP Compute Engine
+Python,Flask,MySQL,0,1,0,0,4,small,512,Serverless_Microfunction,GCP,GCP Cloud Functions
+Java,None,None,0,0,0,0,0,small,1024,Stateful_Monolith_VM,AWS,AWS EC2
+Python,Flask,DynamoDB,0,1,1,0,17,medium,768,Stateful_Monolith_VM,AWS,AWS EC2
+Java,Spring Boot,PostgreSQL,1,1,0,1,43,large,1024,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+JavaScript,NestJS,PostgreSQL,1,1,1,1,20,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,NestJS,PostgreSQL,1,1,0,0,5,medium,512,Containerized_Microservice,GCP,GCP Cloud Run
+JavaScript,None,PostgreSQL,0,1,0,0,4,small,512,Serverless_Microfunction,AWS,AWS Lambda
+Go,None,MongoDB,0,1,1,1,22,medium,512,Stateful_Monolith_VM,AWS,AWS EC2
+JavaScript,Express,MongoDB,0,1,1,1,23,medium,768,Stateful_Monolith_VM,AWS,AWS EC2
+JavaScript,Express,MongoDB,1,1,1,0,49,large,768,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Python,Flask,PostgreSQL,1,1,0,0,2,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+Python,Other,MongoDB,1,0,1,0,0,small,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,Flask,PostgreSQL,0,1,0,0,6,small,512,Serverless_Microfunction,GCP,GCP Cloud Functions
+Python,Flask,PostgreSQL,0,1,0,0,6,small,512,Serverless_Microfunction,AWS,AWS Lambda
+JavaScript,Express,MongoDB,1,1,0,1,29,large,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Other,Other,PostgreSQL,0,1,0,0,3,small,256,Serverless_Microfunction,AWS,AWS Lambda
+Python,FastAPI,MongoDB,1,1,0,0,4,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+Python,Flask,MySQL,0,1,1,1,18,medium,768,Stateful_Monolith_VM,AWS,AWS EC2
+Python,Django,DynamoDB,1,1,0,0,15,medium,512,Containerized_Microservice,AWS,AWS ECS Fargate
+Java,Spring Boot,PostgreSQL,1,1,0,0,24,medium,1024,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+JavaScript,NestJS,None,1,1,1,1,20,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,NestJS,MySQL,1,1,0,0,8,medium,512,Containerized_Microservice,GCP,GCP Cloud Run
+JavaScript,NestJS,PostgreSQL,1,1,0,0,10,medium,512,Containerized_Microservice,GCP,GCP Cloud Run
+JavaScript,NestJS,MySQL,1,1,1,1,67,large,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Go,None,MongoDB,0,1,0,0,9,medium,256,Stateful_Monolith_VM,GCP,GCP Compute Engine
+Java,Spring Boot,None,0,1,1,1,15,medium,1536,Stateful_Monolith_VM,AWS,AWS EC2
+Python,FastAPI,MongoDB,0,1,0,1,23,medium,512,Stateful_Monolith_VM,GCP,GCP Compute Engine
+JavaScript,None,MySQL,0,1,1,1,12,medium,768,Stateful_Monolith_VM,AWS,AWS EC2
+JavaScript,Express,MySQL,0,1,1,1,21,medium,768,Stateful_Monolith_VM,GCP,GCP Compute Engine
+JavaScript,None,PostgreSQL,1,1,0,0,18,medium,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,Flask,MySQL,0,1,1,1,13,medium,768,Stateful_Monolith_VM,GCP,GCP Compute Engine
+JavaScript,Express,PostgreSQL,1,1,0,1,24,medium,512,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Python,Django,PostgreSQL,0,1,0,0,6,medium,512,Stateful_Monolith_VM,AWS,AWS EC2
+Java,Spring Boot,MySQL,1,1,1,0,61,large,1536,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Go,Gin,MySQL,0,1,1,1,40,large,512,Stateful_Monolith_VM,AWS,AWS EC2
+JavaScript,Express,MongoDB,1,1,0,0,10,medium,512,Containerized_Microservice,GCP,GCP Cloud Run
+Python,FastAPI,PostgreSQL,1,1,0,1,23,medium,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,Express,MongoDB,0,1,1,0,11,medium,768,Stateful_Monolith_VM,AWS,AWS EC2
+JavaScript,Express,MongoDB,1,1,1,0,13,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Other,Other,MySQL,0,0,0,0,0,medium,256,Stateful_Monolith_VM,AWS,AWS EC2
+Python,Django,MySQL,1,1,1,0,13,medium,768,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+JavaScript,Express,MongoDB,1,1,0,0,9,medium,512,Containerized_Microservice,GCP,GCP Cloud Run
+Java,None,MySQL,0,1,1,0,5,small,1536,Serverless_Microfunction,AWS,AWS Lambda
+Python,FastAPI,MongoDB,1,1,1,1,50,large,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,Express,PostgreSQL,1,1,1,1,14,medium,768,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+JavaScript,Other,MongoDB,1,0,0,0,0,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+Python,Flask,MySQL,0,1,0,0,4,small,512,Serverless_Microfunction,GCP,GCP Cloud Functions
+Java,Spring Boot,None,1,1,0,1,20,medium,1024,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,Express,MySQL,1,1,0,1,23,medium,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,Express,MongoDB,1,1,0,0,10,medium,512,Containerized_Microservice,GCP,GCP Cloud Run
+Python,Django,PostgreSQL,1,1,1,1,23,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,FastAPI,MongoDB,1,1,1,1,6,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,Express,PostgreSQL,1,1,0,0,4,medium,512,Containerized_Microservice,AWS,AWS ECS Fargate
+Python,Flask,DynamoDB,0,1,1,1,23,medium,768,Stateful_Monolith_VM,AWS,AWS EC2
+Java,Spring Boot,MySQL,1,1,1,1,58,large,1536,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,Flask,PostgreSQL,0,1,0,0,7,small,512,Serverless_Microfunction,GCP,GCP Cloud Functions
+Python,FastAPI,None,1,1,1,0,9,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,None,PostgreSQL,0,1,1,0,2,small,768,Serverless_Microfunction,AWS,AWS Lambda
+JavaScript,Other,MySQL,0,0,1,0,0,medium,768,Stateful_Monolith_VM,GCP,GCP Compute Engine
+JavaScript,Other,MySQL,0,1,0,0,6,small,512,Serverless_Microfunction,AWS,AWS Lambda
+Python,Flask,MongoDB,0,1,0,0,3,small,512,Serverless_Microfunction,AWS,AWS Lambda
+Java,Spring Boot,PostgreSQL,0,1,1,0,10,medium,1536,Stateful_Monolith_VM,AWS,AWS EC2
+JavaScript,Express,MongoDB,1,1,1,0,6,small,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,FastAPI,PostgreSQL,1,1,0,0,7,medium,512,Containerized_Microservice,GCP,GCP Cloud Run
+Python,None,None,1,0,0,0,0,small,512,Containerized_Microservice,AWS,AWS ECS Fargate
+Python,FastAPI,PostgreSQL,1,1,1,0,17,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Java,Spring Boot,MySQL,1,1,1,0,20,medium,1536,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+JavaScript,Express,PostgreSQL,1,1,1,0,19,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,FastAPI,PostgreSQL,1,1,0,1,9,medium,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Go,Gin,PostgreSQL,0,1,1,0,18,medium,512,Stateful_Monolith_VM,GCP,GCP Compute Engine
+Java,Other,PostgreSQL,0,0,0,0,0,small,1024,Stateful_Monolith_VM,AWS,AWS EC2
+Java,None,MySQL,1,1,0,0,2,small,1024,Containerized_Microservice,AWS,AWS ECS Fargate
+Go,None,PostgreSQL,0,1,1,0,19,medium,512,Stateful_Monolith_VM,AWS,AWS EC2
+Python,FastAPI,PostgreSQL,1,1,0,0,12,medium,512,Containerized_Microservice,GCP,GCP Cloud Run
+Java,Spring Boot,PostgreSQL,1,1,0,0,26,large,1024,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,Express,MongoDB,1,1,0,1,7,medium,512,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+JavaScript,NestJS,PostgreSQL,1,1,1,0,20,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Go,Gin,PostgreSQL,1,1,1,0,4,medium,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,Django,Firestore,1,1,1,0,23,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,FastAPI,PostgreSQL,1,1,0,0,4,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+Python,Django,PostgreSQL,0,1,1,1,24,large,768,Stateful_Monolith_VM,AWS,AWS EC2
+JavaScript,NestJS,None,1,1,1,0,24,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,Flask,MongoDB,0,1,1,0,21,medium,768,Stateful_Monolith_VM,AWS,AWS EC2
+Go,None,PostgreSQL,0,1,0,1,11,medium,256,Stateful_Monolith_VM,GCP,GCP Compute Engine
+JavaScript,Express,MongoDB,1,1,0,0,19,medium,512,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Java,Spring Boot,PostgreSQL,1,1,1,0,61,large,1536,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+JavaScript,Express,MySQL,1,1,1,1,11,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Go,Gin,PostgreSQL,1,1,0,0,6,medium,256,Containerized_Microservice,GCP,GCP Cloud Run
+JavaScript,Express,MongoDB,1,1,1,1,15,medium,768,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+JavaScript,Other,MySQL,0,1,0,0,5,medium,512,Stateful_Monolith_VM,AWS,AWS EC2
+JavaScript,NestJS,MongoDB,1,1,1,1,31,large,768,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Java,Spring Boot,PostgreSQL,1,1,0,0,64,large,1024,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,Flask,MySQL,0,1,0,0,6,small,512,Serverless_Microfunction,AWS,AWS Lambda
+JavaScript,Express,MongoDB,1,1,0,0,1,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+Python,Flask,MySQL,0,1,0,0,6,small,512,Serverless_Microfunction,GCP,GCP Cloud Functions
+Java,None,None,1,0,0,0,0,small,1024,Containerized_Microservice,AWS,AWS ECS Fargate
+Python,FastAPI,PostgreSQL,1,1,1,1,11,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,Flask,PostgreSQL,1,1,0,0,3,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+JavaScript,NestJS,MongoDB,1,1,0,0,9,medium,512,Containerized_Microservice,GCP,GCP Cloud Run
+JavaScript,None,PostgreSQL,0,1,0,0,6,small,512,Serverless_Microfunction,AWS,AWS Lambda
+JavaScript,None,None,0,0,1,0,0,medium,768,Stateful_Monolith_VM,AWS,AWS EC2
+JavaScript,None,None,1,0,0,0,0,medium,512,Containerized_Microservice,GCP,GCP Cloud Run
+Go,Gin,PostgreSQL,1,1,1,0,26,large,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,FastAPI,PostgreSQL,1,1,0,0,11,medium,512,Containerized_Microservice,GCP,GCP Cloud Run
+JavaScript,NestJS,PostgreSQL,1,1,1,0,21,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Java,Spring Boot,MySQL,1,1,1,1,61,large,1536,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Python,Flask,PostgreSQL,1,1,0,0,3,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+Java,Spring Boot,MySQL,1,1,0,1,28,large,1024,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Python,Other,PostgreSQL,0,1,0,0,8,medium,512,Stateful_Monolith_VM,AWS,AWS EC2
+JavaScript,NestJS,None,0,1,0,0,7,medium,512,Stateful_Monolith_VM,AWS,AWS EC2
+JavaScript,Express,MongoDB,1,1,1,0,15,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,NestJS,Firestore,1,1,0,0,2,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+Java,Spring Boot,MySQL,1,1,1,0,38,large,1536,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Java,Spring Boot,PostgreSQL,0,1,1,0,16,large,1536,Stateful_Monolith_VM,AWS,AWS EC2
+Go,Gin,MongoDB,1,1,0,0,4,medium,256,Containerized_Microservice,GCP,GCP Cloud Run
+JavaScript,Other,Firestore,0,1,0,0,4,small,512,Serverless_Microfunction,GCP,GCP Cloud Functions
+JavaScript,None,None,0,0,0,0,0,small,512,Stateful_Monolith_VM,GCP,GCP Compute Engine
+Python,Django,DynamoDB,0,1,1,0,24,medium,768,Stateful_Monolith_VM,AWS,AWS EC2
+Java,Spring Boot,MySQL,1,1,1,0,22,medium,1536,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+JavaScript,NestJS,PostgreSQL,0,1,1,0,11,medium,768,Stateful_Monolith_VM,AWS,AWS EC2
+Python,FastAPI,PostgreSQL,1,1,0,0,10,medium,512,Containerized_Microservice,GCP,GCP Cloud Run
+Python,Flask,MongoDB,0,1,1,0,5,small,768,Serverless_Microfunction,GCP,GCP Cloud Functions
+Java,Spring Boot,PostgreSQL,1,1,0,1,19,medium,1024,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Python,FastAPI,PostgreSQL,1,1,0,0,1,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+Java,Spring Boot,PostgreSQL,1,1,1,0,16,medium,1536,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Go,Gin,PostgreSQL,0,1,0,0,20,medium,256,Stateful_Monolith_VM,GCP,GCP Compute Engine
+Python,None,PostgreSQL,1,1,0,0,6,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+Python,FastAPI,MongoDB,1,1,1,0,17,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,Express,PostgreSQL,1,1,0,0,1,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+Python,Django,None,1,1,1,0,24,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,Express,PostgreSQL,0,1,1,1,16,medium,768,Stateful_Monolith_VM,GCP,GCP Compute Engine
+JavaScript,None,Firestore,0,1,0,0,5,small,512,Serverless_Microfunction,GCP,GCP Cloud Functions
+Java,None,None,1,0,1,0,0,medium,1536,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,Express,PostgreSQL,0,1,0,0,9,medium,512,Stateful_Monolith_VM,GCP,GCP Compute Engine
+JavaScript,Express,MongoDB,0,1,1,1,60,large,768,Stateful_Monolith_VM,AWS,AWS EC2
+JavaScript,Express,MongoDB,1,1,0,0,14,medium,512,Containerized_Microservice,GCP,GCP Cloud Run
+Java,Spring Boot,None,1,1,0,1,13,medium,1024,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,Flask,None,0,1,1,0,5,medium,768,Stateful_Monolith_VM,AWS,AWS EC2
+JavaScript,Express,PostgreSQL,1,1,1,0,12,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,Flask,MySQL,0,1,0,0,7,small,512,Serverless_Microfunction,GCP,GCP Cloud Functions
+Python,None,MongoDB,0,1,0,0,4,small,512,Serverless_Microfunction,AWS,AWS Lambda
+Java,Spring Boot,MySQL,1,1,1,1,35,large,1536,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Python,Django,MySQL,1,1,1,0,4,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Java,Spring Boot,PostgreSQL,1,1,1,1,24,medium,1536,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+JavaScript,Express,MongoDB,1,1,0,1,16,medium,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,FastAPI,PostgreSQL,1,1,1,0,13,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Java,Spring Boot,PostgreSQL,1,1,0,1,11,medium,1024,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Other,Other,PostgreSQL,0,1,0,0,10,medium,256,Stateful_Monolith_VM,AWS,AWS EC2
+Java,Spring Boot,PostgreSQL,1,1,0,1,7,medium,1024,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,Express,PostgreSQL,0,1,0,0,6,medium,512,Stateful_Monolith_VM,AWS,AWS EC2
+Python,Flask,MySQL,0,1,0,0,7,small,512,Serverless_Microfunction,GCP,GCP Cloud Functions
+Python,FastAPI,MongoDB,1,1,0,1,17,medium,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,None,PostgreSQL,0,1,0,0,1,small,512,Serverless_Microfunction,AWS,AWS Lambda
+Java,Spring Boot,MySQL,1,1,1,1,16,medium,1536,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+JavaScript,Express,MongoDB,1,1,0,0,16,medium,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,Express,MongoDB,1,1,1,0,6,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,None,None,0,0,0,0,0,small,512,Stateful_Monolith_VM,GCP,GCP Compute Engine
+Python,Flask,PostgreSQL,1,1,1,1,17,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Java,Spring Boot,PostgreSQL,1,1,0,1,16,medium,1024,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+JavaScript,NestJS,MongoDB,1,1,0,0,2,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+Python,FastAPI,MongoDB,1,1,1,0,15,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,NestJS,MySQL,1,1,0,0,11,medium,512,Containerized_Microservice,GCP,GCP Cloud Run
+JavaScript,NestJS,PostgreSQL,1,1,1,0,26,large,768,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Python,FastAPI,PostgreSQL,1,1,0,1,4,medium,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Java,Spring Boot,None,1,1,1,0,46,large,1536,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Python,FastAPI,PostgreSQL,1,1,1,1,22,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Go,Gin,PostgreSQL,0,1,1,0,21,medium,512,Stateful_Monolith_VM,GCP,GCP Compute Engine
+Python,FastAPI,PostgreSQL,1,1,0,0,5,medium,512,Containerized_Microservice,GCP,GCP Cloud Run
+Python,FastAPI,PostgreSQL,1,1,0,0,7,medium,512,Containerized_Microservice,GCP,GCP Cloud Run
+Python,Flask,DynamoDB,1,1,0,0,1,small,512,Containerized_Microservice,AWS,AWS ECS Fargate
+JavaScript,Express,MongoDB,0,1,0,0,13,medium,512,Stateful_Monolith_VM,AWS,AWS EC2
+Go,Gin,MySQL,1,1,0,1,4,medium,256,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Java,None,None,0,0,1,0,0,medium,1536,Stateful_Monolith_VM,AWS,AWS EC2
+Java,Spring Boot,None,1,1,1,0,21,medium,1536,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Python,FastAPI,MongoDB,1,1,0,0,4,medium,512,Containerized_Microservice,GCP,GCP Cloud Run
+JavaScript,Express,MongoDB,1,1,0,0,5,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+JavaScript,Express,PostgreSQL,0,1,0,0,2,small,512,Serverless_Microfunction,AWS,AWS Lambda
+Java,Spring Boot,MySQL,1,1,0,0,62,large,1024,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Java,Spring Boot,MySQL,1,1,0,0,42,large,1024,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,Django,PostgreSQL,1,1,1,0,23,large,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,FastAPI,PostgreSQL,0,1,0,0,7,small,512,Serverless_Microfunction,GCP,GCP Cloud Functions
+JavaScript,None,None,1,0,0,0,0,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+JavaScript,NestJS,MongoDB,1,1,0,0,6,medium,512,Containerized_Microservice,GCP,GCP Cloud Run
+Python,Flask,PostgreSQL,1,1,1,1,21,medium,768,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Java,None,None,0,0,0,0,0,small,1024,Stateful_Monolith_VM,AWS,AWS EC2
+Python,FastAPI,PostgreSQL,1,1,0,1,21,medium,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,Flask,None,0,1,0,0,8,medium,512,Stateful_Monolith_VM,GCP,GCP Compute Engine
+Java,Spring Boot,PostgreSQL,1,1,0,1,24,medium,1024,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,NestJS,MongoDB,1,1,0,1,37,large,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Go,Gin,PostgreSQL,1,1,0,1,18,medium,256,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Java,Spring Boot,PostgreSQL,1,1,1,0,38,large,1536,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Java,Spring Boot,MySQL,1,1,1,0,41,large,1536,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Go,None,None,0,0,1,1,0,medium,512,Stateful_Monolith_VM,AWS,AWS EC2
+Python,FastAPI,PostgreSQL,0,1,1,1,11,medium,768,Stateful_Monolith_VM,GCP,GCP Compute Engine
+JavaScript,Express,PostgreSQL,0,1,0,0,20,medium,512,Stateful_Monolith_VM,AWS,AWS EC2
+Python,FastAPI,None,1,1,1,1,16,medium,768,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+JavaScript,Express,MySQL,1,1,0,0,4,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+JavaScript,Express,MongoDB,1,1,0,0,7,medium,512,Containerized_Microservice,GCP,GCP Cloud Run
+Python,Flask,PostgreSQL,0,1,0,0,7,small,512,Serverless_Microfunction,AWS,AWS Lambda
+Java,None,None,1,1,1,0,9,medium,1536,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Other,None,MySQL,0,1,1,0,7,small,512,Serverless_Microfunction,AWS,AWS Lambda
+JavaScript,Express,MongoDB,1,1,0,0,7,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+JavaScript,NestJS,MongoDB,1,1,1,1,20,medium,768,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Python,Flask,PostgreSQL,0,1,0,0,7,small,512,Serverless_Microfunction,AWS,AWS Lambda
+Python,FastAPI,None,0,1,1,0,6,small,768,Serverless_Microfunction,AWS,AWS Lambda
+Other,Other,PostgreSQL,0,0,0,1,0,medium,256,Stateful_Monolith_VM,GCP,GCP Compute Engine
+Python,FastAPI,PostgreSQL,1,1,1,0,12,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,Express,MySQL,0,1,0,0,6,small,512,Serverless_Microfunction,AWS,AWS Lambda
+Python,Flask,PostgreSQL,0,1,0,0,4,small,512,Serverless_Microfunction,AWS,AWS Lambda
+Go,None,MySQL,0,1,1,0,4,small,512,Serverless_Microfunction,GCP,GCP Cloud Functions
+JavaScript,None,None,1,0,0,0,0,small,512,Containerized_Microservice,AWS,AWS ECS Fargate
+JavaScript,None,MongoDB,0,1,0,0,3,small,512,Serverless_Microfunction,GCP,GCP Cloud Functions
+Python,Flask,PostgreSQL,1,1,0,0,3,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+Python,FastAPI,PostgreSQL,0,1,0,0,21,medium,512,Stateful_Monolith_VM,GCP,GCP Compute Engine
+Python,Flask,MySQL,0,1,0,0,4,small,512,Serverless_Microfunction,AWS,AWS Lambda
+Java,Spring Boot,MySQL,1,1,0,0,35,large,1024,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Python,Flask,None,0,1,0,0,2,small,512,Serverless_Microfunction,AWS,AWS Lambda
+Python,Flask,PostgreSQL,1,1,1,1,21,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Java,Spring Boot,PostgreSQL,1,1,1,1,32,large,1536,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+JavaScript,Express,PostgreSQL,1,1,0,1,12,medium,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,FastAPI,MongoDB,1,1,1,1,16,large,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,FastAPI,MongoDB,0,1,1,1,16,medium,768,Stateful_Monolith_VM,GCP,GCP Compute Engine
+JavaScript,Express,MongoDB,0,1,1,0,8,medium,768,Stateful_Monolith_VM,GCP,GCP Compute Engine
+Python,Flask,MySQL,0,1,0,0,19,medium,512,Stateful_Monolith_VM,GCP,GCP Compute Engine
+JavaScript,Express,PostgreSQL,0,1,0,0,9,medium,512,Stateful_Monolith_VM,GCP,GCP Compute Engine
+Java,Spring Boot,None,1,1,0,1,9,medium,1024,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Python,None,PostgreSQL,0,1,0,0,1,small,512,Serverless_Microfunction,AWS,AWS Lambda
+Go,Gin,PostgreSQL,1,1,1,1,24,medium,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,Express,PostgreSQL,1,1,1,1,24,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,FastAPI,PostgreSQL,1,1,0,1,28,large,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Java,None,PostgreSQL,1,1,0,0,2,small,1024,Containerized_Microservice,AWS,AWS ECS Fargate
+Python,FastAPI,MongoDB,1,1,0,1,6,medium,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,Django,DynamoDB,0,1,1,0,17,medium,768,Stateful_Monolith_VM,AWS,AWS EC2
+JavaScript,Express,MongoDB,1,1,1,0,55,large,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,Express,MongoDB,1,1,0,0,6,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+Python,Flask,PostgreSQL,0,1,0,0,24,medium,512,Stateful_Monolith_VM,AWS,AWS EC2
+JavaScript,Express,None,1,1,1,1,22,medium,768,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+JavaScript,NestJS,None,1,1,1,1,18,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,Express,MongoDB,1,1,0,0,9,medium,512,Containerized_Microservice,GCP,GCP Cloud Run
+Java,None,PostgreSQL,0,1,0,0,2,small,1024,Serverless_Microfunction,AWS,AWS Lambda
+JavaScript,Express,MongoDB,1,1,1,0,9,medium,768,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Python,Flask,MongoDB,0,1,0,0,18,medium,512,Stateful_Monolith_VM,GCP,GCP Compute Engine
+Python,FastAPI,PostgreSQL,1,1,1,0,16,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,None,None,1,0,0,0,0,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+JavaScript,Express,MongoDB,1,1,0,0,20,medium,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Java,Spring Boot,MySQL,1,1,1,0,8,medium,1536,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,FastAPI,PostgreSQL,1,1,0,0,8,medium,512,Containerized_Microservice,GCP,GCP Cloud Run
+JavaScript,NestJS,MongoDB,1,1,1,0,7,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,NestJS,MySQL,1,1,1,1,20,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,Express,None,1,1,1,1,11,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,NestJS,DynamoDB,1,1,0,1,9,medium,512,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+JavaScript,Express,PostgreSQL,0,1,0,0,22,medium,512,Stateful_Monolith_VM,GCP,GCP Compute Engine
+JavaScript,NestJS,MySQL,1,1,1,0,22,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,NestJS,PostgreSQL,0,1,0,1,17,medium,512,Stateful_Monolith_VM,AWS,AWS EC2
+JavaScript,None,PostgreSQL,0,1,1,1,17,medium,768,Stateful_Monolith_VM,AWS,AWS EC2
+JavaScript,NestJS,MySQL,0,1,0,0,9,medium,512,Stateful_Monolith_VM,AWS,AWS EC2
+Python,FastAPI,MongoDB,1,1,1,1,61,large,768,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Python,Django,MongoDB,1,1,1,0,42,large,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Go,Gin,Firestore,1,1,1,0,68,large,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,FastAPI,PostgreSQL,1,1,0,0,23,medium,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,Flask,DynamoDB,0,1,0,0,7,small,512,Serverless_Microfunction,AWS,AWS Lambda
+Python,Flask,MySQL,1,1,0,0,7,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+Java,Spring Boot,PostgreSQL,1,1,1,0,4,medium,1536,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Python,Flask,MongoDB,0,1,0,0,1,small,512,Serverless_Microfunction,AWS,AWS Lambda
+JavaScript,Express,MongoDB,1,1,0,0,66,large,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Java,Spring Boot,PostgreSQL,1,1,1,1,19,medium,1536,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Go,Gin,MongoDB,1,1,1,0,23,medium,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,Other,PostgreSQL,0,0,0,1,0,medium,512,Stateful_Monolith_VM,GCP,GCP Compute Engine
+Java,Spring Boot,PostgreSQL,1,1,0,0,56,large,1024,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,FastAPI,PostgreSQL,1,1,1,1,17,medium,768,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+JavaScript,NestJS,MongoDB,1,1,0,0,7,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+Go,Gin,MySQL,1,1,0,0,7,medium,256,Containerized_Microservice,GCP,GCP Cloud Run
+Python,Flask,MySQL,0,1,0,0,1,small,512,Serverless_Microfunction,AWS,AWS Lambda
+Java,Spring Boot,MySQL,1,1,1,1,22,medium,1536,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Python,Django,Firestore,0,1,0,0,11,medium,512,Stateful_Monolith_VM,GCP,GCP Compute Engine
+Python,FastAPI,PostgreSQL,1,1,0,1,13,medium,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,FastAPI,PostgreSQL,1,1,0,0,55,large,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,Express,MongoDB,0,1,1,1,19,medium,768,Stateful_Monolith_VM,AWS,AWS EC2
+Python,Other,MongoDB,0,1,0,0,3,small,512,Serverless_Microfunction,AWS,AWS Lambda
+Python,Django,PostgreSQL,1,1,0,1,43,large,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,Express,MongoDB,1,1,1,0,20,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,NestJS,DynamoDB,1,1,0,0,3,small,512,Containerized_Microservice,AWS,AWS ECS Fargate
+Python,Django,PostgreSQL,1,1,0,0,25,large,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,Express,PostgreSQL,1,1,1,1,23,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,FastAPI,PostgreSQL,0,1,1,1,17,medium,768,Stateful_Monolith_VM,AWS,AWS EC2
+Java,Spring Boot,PostgreSQL,1,1,0,0,20,medium,1024,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Python,Flask,DynamoDB,1,1,1,0,14,medium,768,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+JavaScript,Express,MySQL,1,1,0,0,1,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+Java,Spring Boot,MySQL,0,1,0,1,31,large,1024,Stateful_Monolith_VM,AWS,AWS EC2
+Java,Spring Boot,PostgreSQL,1,1,1,0,59,large,1536,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Python,FastAPI,MongoDB,1,1,1,0,16,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,FastAPI,MongoDB,0,1,0,0,22,medium,512,Stateful_Monolith_VM,GCP,GCP Compute Engine
+Python,FastAPI,PostgreSQL,0,1,1,0,24,medium,768,Stateful_Monolith_VM,AWS,AWS EC2
+Python,Django,PostgreSQL,1,1,1,0,58,large,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,Express,MySQL,1,1,1,0,23,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Java,None,None,0,0,0,0,0,small,1024,Stateful_Monolith_VM,AWS,AWS EC2
+JavaScript,Express,MySQL,0,1,1,0,20,medium,768,Stateful_Monolith_VM,GCP,GCP Compute Engine
+Other,None,Firestore,1,1,0,0,4,small,256,Containerized_Microservice,GCP,GCP Cloud Run
+JavaScript,None,None,0,1,0,0,4,small,512,Serverless_Microfunction,AWS,AWS Lambda
+Python,None,None,0,1,0,0,6,small,512,Serverless_Microfunction,AWS,AWS Lambda
+JavaScript,None,MongoDB,0,1,0,0,7,medium,512,Stateful_Monolith_VM,AWS,AWS EC2
+Python,FastAPI,PostgreSQL,1,1,0,0,3,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+Python,Flask,MongoDB,0,1,1,0,11,medium,768,Stateful_Monolith_VM,GCP,GCP Compute Engine
+JavaScript,Express,PostgreSQL,0,1,0,0,14,medium,512,Stateful_Monolith_VM,AWS,AWS EC2
+JavaScript,Other,PostgreSQL,0,1,0,0,7,small,512,Serverless_Microfunction,GCP,GCP Cloud Functions
+Python,Django,MySQL,0,1,0,0,7,medium,512,Stateful_Monolith_VM,GCP,GCP Compute Engine
+Java,Spring Boot,PostgreSQL,1,1,1,1,10,medium,1536,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,Flask,MongoDB,0,1,0,0,4,small,512,Serverless_Microfunction,AWS,AWS Lambda
+Python,Flask,PostgreSQL,0,1,0,0,1,small,512,Serverless_Microfunction,AWS,AWS Lambda
+Java,Spring Boot,PostgreSQL,0,1,1,0,62,large,1536,Stateful_Monolith_VM,AWS,AWS EC2
+Java,Spring Boot,MySQL,1,1,1,1,36,large,1536,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Python,FastAPI,PostgreSQL,0,1,1,1,24,medium,768,Stateful_Monolith_VM,GCP,GCP Compute Engine
+Python,FastAPI,PostgreSQL,1,1,1,1,15,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,Express,PostgreSQL,1,1,0,0,22,medium,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,Express,MongoDB,1,1,0,1,11,medium,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,FastAPI,MongoDB,1,1,1,1,49,large,768,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Python,FastAPI,None,0,1,1,0,15,medium,768,Stateful_Monolith_VM,AWS,AWS EC2
+JavaScript,NestJS,PostgreSQL,1,1,0,0,22,medium,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,Express,PostgreSQL,1,1,1,1,14,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,Django,PostgreSQL,1,1,1,1,24,large,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,FastAPI,PostgreSQL,0,1,0,0,7,small,512,Serverless_Microfunction,GCP,GCP Cloud Functions
+Python,FastAPI,MongoDB,1,1,1,0,18,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Go,Gin,PostgreSQL,1,1,1,0,9,medium,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,Django,MongoDB,1,1,1,1,69,large,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,FastAPI,PostgreSQL,0,1,0,0,7,medium,512,Stateful_Monolith_VM,GCP,GCP Compute Engine
+Python,Flask,DynamoDB,0,1,0,0,1,small,512,Serverless_Microfunction,AWS,AWS Lambda
+Python,Flask,None,0,1,1,0,8,medium,768,Stateful_Monolith_VM,GCP,GCP Compute Engine
+JavaScript,NestJS,PostgreSQL,1,1,1,0,45,large,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,FastAPI,PostgreSQL,1,1,0,0,6,medium,512,Containerized_Microservice,GCP,GCP Cloud Run
+JavaScript,Express,PostgreSQL,1,1,1,1,22,medium,768,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+JavaScript,Express,PostgreSQL,1,1,1,0,14,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,Express,MongoDB,0,1,1,1,16,medium,768,Stateful_Monolith_VM,AWS,AWS EC2
+Java,None,None,0,0,1,0,0,medium,1536,Stateful_Monolith_VM,AWS,AWS EC2
+Go,Gin,PostgreSQL,1,1,1,0,20,medium,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,None,PostgreSQL,0,1,0,0,4,small,512,Serverless_Microfunction,GCP,GCP Cloud Functions
+JavaScript,Express,MongoDB,0,1,1,0,10,medium,768,Stateful_Monolith_VM,GCP,GCP Compute Engine
+Java,Spring Boot,MySQL,1,1,1,0,11,medium,1536,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Java,Spring Boot,PostgreSQL,1,1,0,1,5,medium,1024,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Python,Flask,DynamoDB,1,1,0,0,2,small,512,Containerized_Microservice,AWS,AWS ECS Fargate
+JavaScript,Express,PostgreSQL,1,1,1,1,11,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,Express,MongoDB,0,1,0,0,17,medium,512,Stateful_Monolith_VM,AWS,AWS EC2
+Python,Flask,Firestore,1,1,0,0,2,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+JavaScript,None,DynamoDB,0,1,0,0,3,small,512,Serverless_Microfunction,AWS,AWS Lambda
+Java,Spring Boot,MySQL,1,1,1,1,29,large,1536,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+JavaScript,NestJS,DynamoDB,1,1,0,1,18,medium,512,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+JavaScript,Express,MongoDB,1,1,0,0,2,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+Python,Django,MySQL,1,1,0,0,32,large,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,Express,MongoDB,1,1,0,0,7,medium,512,Containerized_Microservice,GCP,GCP Cloud Run
+Other,None,None,0,0,1,0,0,medium,512,Stateful_Monolith_VM,AWS,AWS EC2
+Go,Other,MongoDB,0,1,0,0,3,small,256,Serverless_Microfunction,AWS,AWS Lambda
+JavaScript,Express,MongoDB,1,1,1,0,17,medium,768,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Python,Django,PostgreSQL,0,1,1,0,18,medium,768,Stateful_Monolith_VM,AWS,AWS EC2
+JavaScript,NestJS,PostgreSQL,0,1,0,0,23,medium,512,Stateful_Monolith_VM,GCP,GCP Compute Engine
+Go,Gin,PostgreSQL,1,1,1,0,8,medium,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Java,Spring Boot,PostgreSQL,0,1,1,1,29,large,1536,Stateful_Monolith_VM,AWS,AWS EC2
+JavaScript,Other,MongoDB,0,1,0,0,6,small,512,Serverless_Microfunction,GCP,GCP Cloud Functions
+JavaScript,Express,PostgreSQL,1,1,1,0,67,large,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,FastAPI,PostgreSQL,1,1,1,0,29,large,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,FastAPI,PostgreSQL,1,1,1,1,24,medium,768,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+JavaScript,NestJS,None,1,1,0,1,24,medium,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,Express,MySQL,1,1,0,1,24,medium,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,NestJS,MySQL,1,1,1,1,47,large,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,Express,PostgreSQL,1,1,0,0,10,medium,512,Containerized_Microservice,GCP,GCP Cloud Run
+Python,FastAPI,PostgreSQL,1,1,0,0,1,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+Python,FastAPI,PostgreSQL,1,1,0,0,5,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+Go,Gin,PostgreSQL,1,1,0,0,7,medium,256,Containerized_Microservice,GCP,GCP Cloud Run
+Python,Django,MySQL,0,1,0,0,10,medium,512,Stateful_Monolith_VM,AWS,AWS EC2
+Python,FastAPI,PostgreSQL,1,1,1,1,18,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,Django,PostgreSQL,1,1,1,0,45,large,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,Flask,MySQL,1,1,1,1,23,medium,768,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+JavaScript,Express,PostgreSQL,1,1,0,0,7,medium,512,Containerized_Microservice,GCP,GCP Cloud Run
+JavaScript,NestJS,PostgreSQL,1,1,1,0,14,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Go,None,PostgreSQL,0,1,1,0,5,small,512,Serverless_Microfunction,GCP,GCP Cloud Functions
+Java,None,None,1,1,1,0,6,medium,1536,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Java,Spring Boot,PostgreSQL,1,1,1,1,53,large,1536,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+JavaScript,Express,MySQL,0,1,1,1,19,medium,768,Stateful_Monolith_VM,AWS,AWS EC2
+JavaScript,Express,MySQL,1,1,0,1,68,large,512,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+JavaScript,Express,MongoDB,0,1,1,1,21,medium,768,Stateful_Monolith_VM,AWS,AWS EC2
+Other,None,None,0,1,0,0,5,small,256,Serverless_Microfunction,AWS,AWS Lambda
+Python,FastAPI,PostgreSQL,1,1,1,1,20,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,FastAPI,PostgreSQL,1,1,1,0,20,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,Flask,PostgreSQL,0,1,0,0,3,small,512,Serverless_Microfunction,AWS,AWS Lambda
+Python,Flask,PostgreSQL,1,1,1,0,23,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Go,Gin,MongoDB,0,1,0,0,1,small,256,Serverless_Microfunction,GCP,GCP Cloud Functions
+JavaScript,Express,MongoDB,0,1,0,0,5,medium,512,Stateful_Monolith_VM,GCP,GCP Compute Engine
+Python,FastAPI,MongoDB,1,1,0,0,2,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+Python,FastAPI,MongoDB,1,1,1,1,67,large,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Java,Spring Boot,MySQL,0,1,1,0,24,medium,1536,Stateful_Monolith_VM,AWS,AWS EC2
+JavaScript,Express,MongoDB,1,1,1,1,54,large,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,Flask,MongoDB,0,1,0,0,7,medium,512,Stateful_Monolith_VM,GCP,GCP Compute Engine
+Go,Gin,PostgreSQL,1,1,0,0,3,small,256,Containerized_Microservice,GCP,GCP Cloud Run
+JavaScript,Express,PostgreSQL,0,1,0,0,7,small,512,Serverless_Microfunction,AWS,AWS Lambda
+Python,FastAPI,PostgreSQL,1,1,0,0,42,large,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,Express,None,1,1,1,1,20,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,Express,MongoDB,1,1,0,0,20,medium,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,Express,None,0,1,1,0,7,medium,768,Stateful_Monolith_VM,AWS,AWS EC2
+Java,Spring Boot,PostgreSQL,1,1,1,0,23,medium,1536,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Go,Gin,None,1,1,1,1,18,medium,512,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Java,None,None,0,0,0,0,0,small,1024,Stateful_Monolith_VM,AWS,AWS EC2
+Python,FastAPI,MongoDB,0,1,0,0,1,small,512,Serverless_Microfunction,GCP,GCP Cloud Functions
+Other,None,PostgreSQL,0,1,1,1,23,medium,512,Stateful_Monolith_VM,AWS,AWS EC2
+Java,Spring Boot,PostgreSQL,1,1,1,0,39,large,1536,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Java,Spring Boot,PostgreSQL,1,1,1,0,30,large,1536,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Go,None,MongoDB,1,1,1,0,1,small,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Java,Other,MySQL,0,1,1,1,13,medium,1536,Stateful_Monolith_VM,AWS,AWS EC2
+JavaScript,Express,PostgreSQL,1,1,0,0,6,medium,512,Containerized_Microservice,GCP,GCP Cloud Run
+Python,FastAPI,PostgreSQL,0,1,1,1,33,large,768,Stateful_Monolith_VM,AWS,AWS EC2
+Go,Gin,PostgreSQL,1,1,1,1,19,medium,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Java,Spring Boot,MySQL,1,1,0,0,7,medium,1024,Containerized_Microservice,AWS,AWS ECS Fargate
+Java,Spring Boot,MySQL,1,1,1,1,20,medium,1536,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Java,None,None,1,0,1,0,0,medium,1536,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Python,FastAPI,MongoDB,1,1,0,0,6,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+Java,Spring Boot,PostgreSQL,1,1,1,1,46,large,1536,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+JavaScript,None,PostgreSQL,1,1,0,1,15,medium,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,Express,PostgreSQL,1,1,0,0,9,medium,512,Containerized_Microservice,GCP,GCP Cloud Run
+Python,FastAPI,None,1,1,0,1,24,medium,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Java,Spring Boot,PostgreSQL,0,1,0,0,9,medium,1024,Stateful_Monolith_VM,AWS,AWS EC2
+JavaScript,Express,MongoDB,1,1,1,0,18,medium,768,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Python,None,None,0,0,1,0,0,medium,768,Stateful_Monolith_VM,AWS,AWS EC2
+Python,None,None,0,0,0,0,0,medium,512,Stateful_Monolith_VM,AWS,AWS EC2
+JavaScript,Express,None,1,1,1,0,6,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,FastAPI,PostgreSQL,0,1,1,0,15,medium,768,Stateful_Monolith_VM,AWS,AWS EC2
+JavaScript,NestJS,MongoDB,0,1,0,0,4,small,512,Serverless_Microfunction,AWS,AWS Lambda
+Python,Flask,MongoDB,0,1,0,0,6,small,512,Serverless_Microfunction,AWS,AWS Lambda
+Python,Flask,PostgreSQL,1,1,1,1,8,medium,768,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+JavaScript,Express,MongoDB,1,1,0,1,10,medium,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Java,Spring Boot,PostgreSQL,1,1,0,0,12,medium,1024,Containerized_Microservice,AWS,AWS ECS Fargate
+Python,FastAPI,PostgreSQL,1,1,1,0,22,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,Flask,Firestore,1,1,0,0,8,medium,512,Containerized_Microservice,GCP,GCP Cloud Run
+JavaScript,Express,PostgreSQL,1,1,1,0,22,large,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Go,None,MySQL,1,1,0,0,21,medium,256,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Java,Spring Boot,PostgreSQL,0,1,0,0,4,medium,1024,Stateful_Monolith_VM,AWS,AWS EC2
+Python,FastAPI,PostgreSQL,0,1,1,0,3,small,768,Serverless_Microfunction,GCP,GCP Cloud Functions
+Java,Spring Boot,MySQL,0,1,1,1,13,medium,1536,Stateful_Monolith_VM,AWS,AWS EC2
+Python,FastAPI,None,1,1,1,0,20,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,FastAPI,PostgreSQL,1,1,1,0,18,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,Flask,PostgreSQL,0,1,1,1,8,medium,768,Stateful_Monolith_VM,AWS,AWS EC2
+Python,Flask,MySQL,0,1,1,0,16,medium,768,Stateful_Monolith_VM,AWS,AWS EC2
+JavaScript,NestJS,MongoDB,1,1,0,0,6,medium,512,Containerized_Microservice,GCP,GCP Cloud Run
+JavaScript,Express,None,1,1,0,0,20,medium,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Go,Other,None,0,0,0,0,0,small,256,Stateful_Monolith_VM,AWS,AWS EC2
+Java,None,PostgreSQL,0,1,0,0,20,medium,1024,Stateful_Monolith_VM,AWS,AWS EC2
+JavaScript,NestJS,PostgreSQL,1,1,0,0,1,small,512,Containerized_Microservice,AWS,AWS ECS Fargate
+Python,FastAPI,PostgreSQL,1,1,1,1,19,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,FastAPI,MongoDB,0,1,1,0,7,medium,768,Stateful_Monolith_VM,GCP,GCP Compute Engine
+Python,FastAPI,PostgreSQL,1,1,1,1,12,medium,768,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Java,Spring Boot,PostgreSQL,1,1,0,1,62,large,1024,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Other,Other,MySQL,0,1,1,0,4,small,512,Serverless_Microfunction,AWS,AWS Lambda
+Python,None,PostgreSQL,1,1,0,0,4,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+Java,Spring Boot,None,1,1,1,1,62,large,1536,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Java,Spring Boot,PostgreSQL,0,1,0,0,6,medium,1024,Stateful_Monolith_VM,AWS,AWS EC2
+Python,Other,MySQL,1,1,0,0,22,medium,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Go,Gin,MongoDB,1,1,1,0,12,medium,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Java,None,PostgreSQL,0,1,1,0,5,small,1536,Serverless_Microfunction,AWS,AWS Lambda
+Other,None,None,0,0,0,1,0,medium,256,Stateful_Monolith_VM,AWS,AWS EC2
+Go,Gin,PostgreSQL,1,1,1,0,23,medium,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,Express,MongoDB,1,1,0,1,38,large,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Java,Spring Boot,None,1,1,0,1,55,large,1024,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+JavaScript,Express,MongoDB,1,1,0,1,13,medium,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,Express,MySQL,1,1,1,0,18,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,None,None,0,1,1,0,9,medium,768,Stateful_Monolith_VM,AWS,AWS EC2
+JavaScript,Express,MySQL,1,1,0,0,20,medium,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,Flask,MongoDB,0,1,1,0,5,small,768,Serverless_Microfunction,AWS,AWS Lambda
+Python,Flask,PostgreSQL,0,1,0,0,7,small,512,Serverless_Microfunction,AWS,AWS Lambda
+Other,None,None,0,0,0,0,0,small,256,Stateful_Monolith_VM,AWS,AWS EC2
+Python,Other,MongoDB,0,0,0,0,0,small,512,Stateful_Monolith_VM,AWS,AWS EC2
+Python,Flask,MySQL,1,1,1,1,21,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,FastAPI,PostgreSQL,1,1,1,1,20,large,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,NestJS,DynamoDB,1,1,0,0,2,small,512,Containerized_Microservice,AWS,AWS ECS Fargate
+JavaScript,NestJS,MySQL,1,1,0,0,7,medium,512,Containerized_Microservice,GCP,GCP Cloud Run
+Other,Other,PostgreSQL,1,0,0,0,0,small,256,Containerized_Microservice,GCP,GCP Cloud Run
+JavaScript,NestJS,MySQL,1,1,1,1,21,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Java,Spring Boot,MySQL,1,1,1,0,5,medium,1536,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,FastAPI,MongoDB,1,1,1,0,22,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,NestJS,PostgreSQL,0,1,1,0,14,medium,768,Stateful_Monolith_VM,AWS,AWS EC2
+Python,Other,MySQL,1,1,1,1,16,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Other,Other,PostgreSQL,0,1,0,0,7,small,256,Serverless_Microfunction,GCP,GCP Cloud Functions
+JavaScript,Express,None,0,1,0,0,2,small,512,Serverless_Microfunction,AWS,AWS Lambda
+Go,Gin,PostgreSQL,1,1,1,0,16,medium,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,Django,PostgreSQL,0,1,1,1,68,large,768,Stateful_Monolith_VM,AWS,AWS EC2
+JavaScript,None,None,1,0,0,0,0,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+JavaScript,Express,MongoDB,0,1,0,0,12,medium,512,Stateful_Monolith_VM,AWS,AWS EC2
+Java,Spring Boot,PostgreSQL,1,1,1,0,68,large,1536,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Java,Spring Boot,PostgreSQL,1,1,0,1,12,medium,1024,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Go,Gin,None,0,1,0,0,17,medium,256,Stateful_Monolith_VM,GCP,GCP Compute Engine
+JavaScript,Express,PostgreSQL,1,1,1,0,21,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,Express,PostgreSQL,1,1,1,0,13,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Java,Spring Boot,MySQL,1,1,0,0,11,medium,1024,Containerized_Microservice,AWS,AWS ECS Fargate
+Java,Spring Boot,PostgreSQL,0,1,1,1,23,large,1536,Stateful_Monolith_VM,AWS,AWS EC2
+Python,None,PostgreSQL,1,1,0,0,2,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+Java,None,PostgreSQL,0,1,0,0,2,small,1024,Serverless_Microfunction,AWS,AWS Lambda
+Python,FastAPI,MongoDB,1,1,0,1,21,medium,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,Express,PostgreSQL,0,1,1,1,22,medium,768,Stateful_Monolith_VM,AWS,AWS EC2
+Java,None,MySQL,1,1,0,0,6,small,1024,Containerized_Microservice,GCP,GCP Cloud Run
+Python,FastAPI,MongoDB,0,1,0,1,8,medium,512,Stateful_Monolith_VM,GCP,GCP Compute Engine
+Go,Gin,MySQL,1,1,1,0,6,medium,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,Flask,None,1,1,0,0,3,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+JavaScript,Express,None,0,1,1,1,16,medium,768,Stateful_Monolith_VM,AWS,AWS EC2
+Java,Spring Boot,PostgreSQL,1,1,1,1,64,large,1536,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Python,Flask,PostgreSQL,1,1,1,0,5,small,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,Flask,PostgreSQL,1,1,0,0,4,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+Java,Spring Boot,PostgreSQL,1,1,1,0,13,medium,1536,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,Express,MongoDB,1,1,1,0,6,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Java,Spring Boot,PostgreSQL,1,1,1,1,11,medium,1536,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Java,Spring Boot,MySQL,1,1,1,1,67,large,1536,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Python,Flask,PostgreSQL,0,1,0,0,5,small,512,Serverless_Microfunction,AWS,AWS Lambda
+Python,Django,MySQL,1,1,0,0,6,medium,512,Containerized_Microservice,GCP,GCP Cloud Run
+Python,None,PostgreSQL,0,1,1,1,18,medium,768,Stateful_Monolith_VM,AWS,AWS EC2
+JavaScript,NestJS,DynamoDB,1,1,0,1,16,medium,512,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Go,None,MySQL,1,1,0,0,3,small,256,Containerized_Microservice,GCP,GCP Cloud Run
+Python,Flask,MongoDB,0,1,1,0,9,medium,768,Stateful_Monolith_VM,AWS,AWS EC2
+JavaScript,Other,MySQL,0,1,0,0,4,small,512,Serverless_Microfunction,GCP,GCP Cloud Functions
+JavaScript,None,MongoDB,0,1,0,0,2,small,512,Serverless_Microfunction,AWS,AWS Lambda
+Go,Gin,PostgreSQL,1,1,0,0,15,medium,256,Containerized_Microservice,GCP,GCP Cloud Run
+Python,Django,PostgreSQL,1,1,0,0,65,large,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,Flask,PostgreSQL,0,1,0,0,7,small,512,Serverless_Microfunction,AWS,AWS Lambda
+Python,FastAPI,None,1,1,1,1,21,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,NestJS,DynamoDB,1,1,1,1,14,medium,768,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Other,None,PostgreSQL,0,1,0,0,1,small,256,Serverless_Microfunction,AWS,AWS Lambda
+Java,Spring Boot,PostgreSQL,1,1,1,0,5,medium,1536,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Java,Spring Boot,MySQL,1,1,0,1,23,medium,1024,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Go,Gin,MongoDB,0,1,0,0,1,small,256,Serverless_Microfunction,AWS,AWS Lambda
+Go,Gin,DynamoDB,1,1,1,0,24,large,512,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Python,Flask,MongoDB,0,1,0,1,18,medium,512,Stateful_Monolith_VM,GCP,GCP Compute Engine
+Python,FastAPI,MongoDB,1,1,1,1,20,medium,768,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+JavaScript,NestJS,PostgreSQL,1,1,1,0,15,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,Express,MySQL,1,1,1,1,27,large,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,NestJS,MySQL,1,1,1,0,56,large,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,Express,PostgreSQL,1,1,0,0,53,large,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,Other,PostgreSQL,1,0,0,1,0,medium,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Go,Gin,PostgreSQL,0,1,1,0,66,large,512,Stateful_Monolith_VM,GCP,GCP Compute Engine
+JavaScript,NestJS,None,1,1,0,0,1,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+Python,Other,PostgreSQL,1,1,0,0,2,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+Java,Spring Boot,MySQL,1,1,0,1,23,large,1024,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Java,Spring Boot,MySQL,1,1,0,0,8,medium,1024,Containerized_Microservice,AWS,AWS ECS Fargate
+JavaScript,Express,MongoDB,1,1,0,0,2,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+Python,FastAPI,MongoDB,1,1,1,0,19,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,Other,PostgreSQL,0,0,0,0,0,small,512,Stateful_Monolith_VM,AWS,AWS EC2
+Python,None,None,1,0,0,0,0,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+Java,Spring Boot,MySQL,1,1,1,1,24,medium,1536,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+JavaScript,NestJS,MySQL,1,1,0,1,11,medium,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,Other,PostgreSQL,0,1,1,1,13,medium,768,Stateful_Monolith_VM,AWS,AWS EC2
+Python,FastAPI,PostgreSQL,1,1,0,1,9,medium,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,None,None,1,0,1,0,0,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,Django,PostgreSQL,0,1,0,0,56,large,512,Stateful_Monolith_VM,GCP,GCP Compute Engine
+Python,FastAPI,PostgreSQL,1,1,1,1,17,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,Flask,MySQL,0,1,0,0,2,small,512,Serverless_Microfunction,AWS,AWS Lambda
+Python,Django,MongoDB,1,1,1,0,15,medium,768,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Other,Other,MySQL,0,1,0,0,5,small,256,Serverless_Microfunction,GCP,GCP Cloud Functions
+Go,None,MongoDB,0,1,0,0,2,small,256,Serverless_Microfunction,GCP,GCP Cloud Functions
+Go,Gin,PostgreSQL,1,1,1,1,11,medium,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,Express,PostgreSQL,1,1,0,0,16,medium,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,NestJS,PostgreSQL,1,1,1,1,8,medium,768,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Python,Flask,None,0,1,0,0,20,medium,512,Stateful_Monolith_VM,GCP,GCP Compute Engine
+JavaScript,Express,MongoDB,0,1,0,1,23,medium,512,Stateful_Monolith_VM,GCP,GCP Compute Engine
+JavaScript,Express,None,1,1,0,0,10,medium,512,Containerized_Microservice,GCP,GCP Cloud Run
+JavaScript,Express,MongoDB,1,1,1,1,15,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Go,None,None,1,0,0,1,0,medium,256,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,Express,MongoDB,1,1,0,1,23,medium,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,None,None,0,1,0,0,2,small,512,Serverless_Microfunction,GCP,GCP Cloud Functions
+JavaScript,NestJS,MongoDB,1,1,0,0,6,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+Python,FastAPI,PostgreSQL,0,1,0,1,15,medium,512,Stateful_Monolith_VM,GCP,GCP Compute Engine
+Python,FastAPI,PostgreSQL,0,1,0,0,9,medium,512,Stateful_Monolith_VM,GCP,GCP Compute Engine
+Java,Spring Boot,PostgreSQL,1,1,0,0,12,medium,1024,Containerized_Microservice,GCP,GCP Cloud Run
+Go,Gin,MongoDB,1,1,0,0,23,medium,256,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,Express,MySQL,0,1,1,1,21,medium,768,Stateful_Monolith_VM,AWS,AWS EC2
+Python,Django,PostgreSQL,0,1,1,0,13,medium,768,Stateful_Monolith_VM,AWS,AWS EC2
+JavaScript,NestJS,PostgreSQL,1,1,1,0,5,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,FastAPI,MongoDB,1,1,0,0,12,medium,512,Containerized_Microservice,GCP,GCP Cloud Run
+Python,Flask,MongoDB,1,1,0,0,4,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+JavaScript,NestJS,MySQL,0,1,0,0,13,medium,512,Stateful_Monolith_VM,AWS,AWS EC2
+Python,FastAPI,PostgreSQL,1,1,0,0,14,medium,512,Containerized_Microservice,GCP,GCP Cloud Run
+Python,FastAPI,PostgreSQL,0,1,0,0,17,medium,512,Stateful_Monolith_VM,AWS,AWS EC2
+Python,Flask,MongoDB,0,1,0,0,7,small,512,Serverless_Microfunction,GCP,GCP Cloud Functions
+Java,Spring Boot,MySQL,1,1,0,1,38,large,1024,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Java,Spring Boot,PostgreSQL,0,1,0,1,21,medium,1024,Stateful_Monolith_VM,AWS,AWS EC2
+JavaScript,Express,PostgreSQL,1,1,1,0,20,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,FastAPI,None,1,1,0,0,9,medium,512,Containerized_Microservice,GCP,GCP Cloud Run
+Java,Spring Boot,PostgreSQL,1,1,0,0,7,medium,1024,Containerized_Microservice,AWS,AWS ECS Fargate
+Java,None,PostgreSQL,1,1,0,0,2,small,1024,Containerized_Microservice,AWS,AWS ECS Fargate
+Python,Other,MongoDB,1,1,1,0,18,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,NestJS,PostgreSQL,1,1,0,0,2,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+JavaScript,Express,MongoDB,1,1,0,1,41,large,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Java,Spring Boot,PostgreSQL,0,1,0,0,11,medium,1024,Stateful_Monolith_VM,AWS,AWS EC2
+JavaScript,None,MySQL,0,1,0,0,7,small,512,Serverless_Microfunction,AWS,AWS Lambda
+Python,Flask,DynamoDB,0,1,0,0,6,small,512,Serverless_Microfunction,AWS,AWS Lambda
+Java,Spring Boot,None,1,1,1,1,17,medium,1536,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+JavaScript,Express,MySQL,1,1,0,1,32,large,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Java,Other,None,0,1,0,0,6,small,1024,Serverless_Microfunction,AWS,AWS Lambda
+JavaScript,NestJS,None,1,1,1,0,7,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,Express,PostgreSQL,1,1,0,0,2,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+JavaScript,Express,PostgreSQL,0,1,0,1,7,medium,512,Stateful_Monolith_VM,GCP,GCP Compute Engine
+Go,Gin,PostgreSQL,1,1,0,0,19,medium,256,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Java,None,PostgreSQL,0,1,0,0,4,small,1024,Serverless_Microfunction,AWS,AWS Lambda
+JavaScript,Express,MongoDB,0,1,0,0,9,medium,512,Stateful_Monolith_VM,GCP,GCP Compute Engine
+JavaScript,Express,MongoDB,0,1,1,0,22,medium,768,Stateful_Monolith_VM,AWS,AWS EC2
+Python,FastAPI,PostgreSQL,1,1,1,1,22,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,Express,MongoDB,0,1,1,0,10,medium,768,Stateful_Monolith_VM,AWS,AWS EC2
+JavaScript,Express,MongoDB,1,1,0,0,15,medium,512,Containerized_Microservice,GCP,GCP Cloud Run
+Python,FastAPI,PostgreSQL,0,1,1,0,21,medium,768,Stateful_Monolith_VM,AWS,AWS EC2
+Python,FastAPI,PostgreSQL,1,1,0,1,4,medium,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,FastAPI,MongoDB,1,1,1,0,5,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Other,None,None,1,0,0,0,0,small,256,Containerized_Microservice,GCP,GCP Cloud Run
+JavaScript,None,None,0,1,1,1,11,medium,768,Stateful_Monolith_VM,AWS,AWS EC2
+JavaScript,NestJS,PostgreSQL,1,1,0,1,13,medium,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,Express,MongoDB,1,1,0,0,5,medium,512,Containerized_Microservice,GCP,GCP Cloud Run
+JavaScript,Express,MySQL,1,1,1,1,19,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,FastAPI,PostgreSQL,1,1,0,0,15,medium,512,Containerized_Microservice,GCP,GCP Cloud Run
+Other,None,MySQL,0,1,0,0,1,small,256,Serverless_Microfunction,AWS,AWS Lambda
+Python,Flask,MongoDB,1,1,0,0,2,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+JavaScript,Express,MongoDB,1,1,1,0,17,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,FastAPI,MongoDB,1,1,1,1,14,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,Other,PostgreSQL,0,1,1,1,17,medium,768,Stateful_Monolith_VM,GCP,GCP Compute Engine
+Python,FastAPI,PostgreSQL,1,1,0,1,41,large,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,FastAPI,PostgreSQL,1,1,1,1,22,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,FastAPI,PostgreSQL,1,1,0,0,3,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+Python,Other,PostgreSQL,1,1,1,1,14,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,Flask,MySQL,1,1,0,0,1,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+Python,Django,MySQL,0,1,0,0,8,medium,512,Stateful_Monolith_VM,GCP,GCP Compute Engine
+Python,FastAPI,PostgreSQL,1,1,0,0,16,medium,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,FastAPI,MongoDB,0,1,1,0,8,medium,768,Stateful_Monolith_VM,GCP,GCP Compute Engine
+Go,Other,MongoDB,0,1,0,0,5,small,256,Serverless_Microfunction,AWS,AWS Lambda
+Python,FastAPI,PostgreSQL,1,1,0,1,14,medium,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,NestJS,MongoDB,1,1,1,1,7,medium,768,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Python,Flask,PostgreSQL,0,1,0,0,6,small,512,Serverless_Microfunction,GCP,GCP Cloud Functions
+JavaScript,Express,None,1,1,0,0,4,medium,512,Containerized_Microservice,GCP,GCP Cloud Run
+JavaScript,Express,MySQL,0,1,1,1,22,medium,768,Stateful_Monolith_VM,AWS,AWS EC2
+Java,None,None,0,0,0,1,0,medium,1024,Stateful_Monolith_VM,AWS,AWS EC2
+JavaScript,Express,MongoDB,1,1,0,0,8,medium,512,Containerized_Microservice,GCP,GCP Cloud Run
+JavaScript,NestJS,PostgreSQL,1,1,1,0,15,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,FastAPI,None,1,1,1,1,57,large,768,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+JavaScript,Express,MongoDB,0,1,1,0,19,medium,768,Stateful_Monolith_VM,AWS,AWS EC2
+Python,None,PostgreSQL,0,1,0,0,7,small,512,Serverless_Microfunction,AWS,AWS Lambda
+Python,FastAPI,PostgreSQL,1,1,0,1,11,medium,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,FastAPI,MongoDB,1,1,0,0,1,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+Go,Gin,MongoDB,1,1,1,1,14,medium,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Python,Flask,MongoDB,1,1,0,0,2,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+JavaScript,None,None,1,0,0,0,0,small,512,Containerized_Microservice,GCP,GCP Cloud Run
+Python,FastAPI,MongoDB,0,1,1,1,20,medium,768,Stateful_Monolith_VM,GCP,GCP Compute Engine
+Java,Spring Boot,MySQL,1,1,1,1,33,large,1536,High_Throughput_Container_Mesh,AWS,AWS ECS Fargate
+Python,Django,MongoDB,1,1,0,1,18,large,512,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+Go,Gin,PostgreSQL,0,1,1,1,21,medium,512,Stateful_Monolith_VM,GCP,GCP Compute Engine
+Go,Gin,MongoDB,1,1,0,0,7,small,256,Containerized_Microservice,GCP,GCP Cloud Run
+Python,FastAPI,PostgreSQL,0,1,0,1,24,medium,512,Stateful_Monolith_VM,AWS,AWS EC2
+Python,FastAPI,None,0,1,0,0,11,medium,512,Stateful_Monolith_VM,GCP,GCP Compute Engine
+JavaScript,Other,PostgreSQL,0,1,1,0,4,medium,768,Stateful_Monolith_VM,AWS,AWS EC2
+JavaScript,NestJS,PostgreSQL,1,1,0,0,8,medium,512,Containerized_Microservice,GCP,GCP Cloud Run
+JavaScript,Express,MongoDB,1,1,1,0,1,small,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run
+JavaScript,Express,MongoDB,1,1,1,1,17,medium,768,High_Throughput_Container_Mesh,GCP,GCP Cloud Run

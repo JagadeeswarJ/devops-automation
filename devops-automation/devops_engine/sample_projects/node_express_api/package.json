@@ -1,0 +1,14 @@
+{
+  "name": "node-express-api",
+  "version": "1.0.0",
+  "description": "User Microservice API with MongoDB",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongoose": "^8.2.1",
+    "dotenv": "^16.4.5"
+  }
+}

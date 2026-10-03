@@ -1,0 +1,283 @@
+{
+  "archetype_classifier": {
+    "test_accuracy": 1.0,
+    "test_f1_weighted": 1.0,
+    "cv_accuracy_mean": 0.9956,
+    "cv_accuracy_std": 0.0042,
+    "classes": [
+      "Containerized_Microservice",
+      "High_Throughput_Container_Mesh",
+      "Serverless_Microfunction",
+      "Stateful_Monolith_VM"
+    ],
+    "classification_report": {
+      "Containerized_Microservice": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 62.0
+      },
+      "High_Throughput_Container_Mesh": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 134.0
+      },
+      "Serverless_Microfunction": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 38.0
+      },
+      "Stateful_Monolith_VM": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 86.0
+      },
+      "accuracy": 1.0,
+      "macro avg": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 320.0
+      },
+      "weighted avg": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 320.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        62,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        134,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        38,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        86
+      ]
+    ]
+  },
+  "cloud_recommender": {
+    "test_accuracy": 0.7562,
+    "test_f1_weighted": 0.7568,
+    "cv_accuracy_mean": 0.7913,
+    "cv_accuracy_std": 0.0238,
+    "classes": [
+      "AWS",
+      "GCP"
+    ],
+    "classification_report": {
+      "AWS": {
+        "precision": 0.6917293233082706,
+        "recall": 0.7131782945736435,
+        "f1-score": 0.7022900763358778,
+        "support": 129.0
+      },
+      "GCP": {
+        "precision": 0.8021390374331551,
+        "recall": 0.7853403141361257,
+        "f1-score": 0.7936507936507936,
+        "support": 191.0
+      },
+      "accuracy": 0.75625,
+      "macro avg": {
+        "precision": 0.7469341803707128,
+        "recall": 0.7492593043548845,
+        "f1-score": 0.7479704349933357,
+        "support": 320.0
+      },
+      "weighted avg": {
+        "precision": 0.757630121426561,
+        "recall": 0.75625,
+        "f1-score": 0.7568210044832181,
+        "support": 320.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        92,
+        37
+      ],
+      [
+        41,
+        150
+      ]
+    ]
+  },
+  "compute_recommender": {
+    "test_accuracy": 1.0,
+    "test_f1_weighted": 1.0,
+    "cv_accuracy_mean": 1.0,
+    "cv_accuracy_std": 0.0,
+    "classes": [
+      "AWS EC2",
+      "AWS ECS Fargate",
+      "AWS Lambda",
+      "GCP Cloud Functions",
+      "GCP Cloud Run",
+      "GCP Compute Engine"
+    ],
+    "classification_report": {
+      "AWS EC2": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 51.0
+      },
+      "AWS ECS Fargate": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 50.0
+      },
+      "AWS Lambda": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 28.0
+      },
+      "GCP Cloud Functions": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 10.0
+      },
+      "GCP Cloud Run": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 146.0
+      },
+      "GCP Compute Engine": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 35.0
+      },
+      "accuracy": 1.0,
+      "macro avg": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 320.0
+      },
+      "weighted avg": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1-score": 1.0,
+        "support": 320.0
+      }
+    },
+    "confusion_matrix": [
+      [
+        51,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        50,
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        28,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        10,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        146,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        35
+      ]
+    ]
+  },
+  "top_cloud_features": [
+    {
+      "feature": "is_containerized",
+      "importance": 0.2079
+    },
+    {
+      "feature": "route_count",
+      "importance": 0.151
+    },
+    {
+      "feature": "base_memory_mb",
+      "importance": 0.1265
+    },
+    {
+      "feature": "language_Java",
+      "importance": 0.0798
+    },
+    {
+      "feature": "database_DynamoDB",
+      "importance": 0.0602
+    },
+    {
+      "feature": "framework_Spring Boot",
+      "importance": 0.0494
+    },
+    {
+      "feature": "has_queue",
+      "importance": 0.0347
+    },
+    {
+      "feature": "framework_FastAPI",
+      "importance": 0.0339
+    },
+    {
+      "feature": "has_cache",
+      "importance": 0.0267
+    },
+    {
+      "feature": "language_Go",
+      "importance": 0.0179
+    }
+  ]
+}
