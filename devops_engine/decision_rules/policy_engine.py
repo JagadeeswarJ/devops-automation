@@ -3,6 +3,7 @@ Applies user constraints, operational validation gates, and cost-aware arbitrati
 before finalizing the infrastructure recommendation.
 """
 
+import os
 from typing import Dict, Any, List
 from .cost_estimator import compare_costs
 
@@ -51,13 +52,21 @@ def apply_decision_rules(
     elif strategy == "performance":
         override_reason = "Optimization strategy 'performance' prioritized low-latency containerized execution."
 
-    # Active compute and infra corresponding to the active cloud
+# Active compute and infra corresponding to the active cloud
     if active_cloud == ml_result["selected_cloud"]:
         final_compute = ml_result["recommended_compute"]
-        final_infra = ml_result["primary_infrastructure"]
+        final_infra = dict(ml_result["primary_infrastructure"])
     else:
         final_compute = ml_result["alternate_compute"]
-        final_infra = ml_result["alternate_infrastructure"]
+        final_infra = dict(ml_result["alternate_infrastructure"])
+
+    # Attach deployment target project and region from environment variables
+    if active_cloud == "GCP":
+        final_infra["target_project"] = os.environ.get("GOOGLE_CLOUD_PROJECT", "mcp-test-sreenivas")
+        final_infra["target_region"] = os.environ.get("GOOGLE_CLOUD_LOCATION", "us-central1")
+    else:
+        final_infra["target_project"] = os.environ.get("AWS_ACCOUNT_ID", "default-aws-account")
+        final_infra["target_region"] = os.environ.get("AWS_DEFAULT_REGION", "us-east-1")
 
     # 3. Policy & Validation Gates (inspired by Vargas et al. [7] and Zhang et al. [10])
     policy_checks = []

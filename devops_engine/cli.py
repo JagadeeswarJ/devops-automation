@@ -1,3 +1,13 @@
+try:
+    from devops_engine.config import load_env
+    load_env()
+except ImportError:
+    try:
+        from config import load_env
+        load_env()
+    except ImportError:
+        pass
+
 """Command Line Interface for the AI Autonomous DevOps Engine.
 Provides commands for repository scanning, ML cloud recommendation, cost comparison,
 and context-aware question answering.
@@ -85,6 +95,10 @@ def analyze_command(project_path: str, cloud: Optional[str] = None, strategy: st
     print(f" 4. FINAL CLOUD ARCHITECTURE STACK ({decision['final_cloud']})")
     print("=" * 55)
     infra = decision["final_infrastructure"]
+    if infra.get("target_project"):
+        print(f"  - Target Project  : {infra['target_project']}")
+    if infra.get("target_region"):
+        print(f"  - Target Region   : {infra['target_region']}")
     print(f"  - Compute Engine  : {decision['final_compute']}")
     print(f"  - Database Tier   : {infra['database_service']}")
     print(f"  - Cache Tier      : {infra['cache_service']}")

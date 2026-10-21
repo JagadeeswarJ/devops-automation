@@ -1,3 +1,13 @@
+try:
+    from devops_engine.config import load_env
+    load_env()
+except ImportError:
+    try:
+        from config import load_env
+        load_env()
+    except ImportError:
+        pass
+
 """End-to-End Demonstration Script for AI Autonomous DevOps Engine (Phase 1).
 Runs the complete workflow:
 1. Codebase static analysis across multiple language stacks (FastAPI, Express, Spring Boot, Serverless)

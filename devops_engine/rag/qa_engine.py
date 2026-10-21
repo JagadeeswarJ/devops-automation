@@ -1,3 +1,13 @@
+try:
+    from devops_engine.config import load_env
+    load_env()
+except ImportError:
+    try:
+        from config import load_env
+        load_env()
+    except ImportError:
+        pass
+
 """Context-Aware Application Question Answering (Objective 2).
 Generates context-specific architectural questions and provides citation-grounded answers
 using Retrieval-Augmented Generation (RAG) over codebase chunks and cloud knowledge.
@@ -5,7 +15,10 @@ using Retrieval-Augmented Generation (RAG) over codebase chunks and cloud knowle
 
 import os
 import json
-import requests
+try:
+    import requests
+except ImportError:
+    requests = None
 from typing import List, Dict, Any, Tuple
 from .retriever import ContextRetriever
 
@@ -64,17 +77,29 @@ class DevOpsQAEngine:
 
     def _call_gemini_api(self, prompt: str, api_key: str) -> str:
         """Call Gemini API via direct REST endpoint if key is provided."""
-        url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key={api_key}"
+        model = "gemini-2.5-flash"
+        url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={api_key}"
         payload = {
             "contents": [{"parts": [{"text": prompt}]}],
             "generationConfig": {"temperature": 0.2, "maxOutputTokens": 1000}
         }
-        resp = requests.post(url, json=payload, timeout=12)
-        if resp.status_code == 200:
-            data = resp.json()
-            return data["candidates"][0]["content"]["parts"][0]["text"]
+        if requests is not None:
+            resp = requests.post(url, json=payload, timeout=12)
+            if resp.status_code == 200:
+                data = resp.json()
+                return data["candidates"][0]["content"]["parts"][0]["text"]
+            else:
+                raise RuntimeError(f"Gemini API error ({resp.status_code}): {resp.text}")
         else:
-            raise RuntimeError(f"Gemini API error ({resp.status_code}): {resp.text}")
+            import urllib.request
+            data = json.dumps(payload).encode("utf-8")
+            req = urllib.request.Request(url, data=data, headers={"Content-Type": "application/json"})
+            try:
+                with urllib.request.urlopen(req, timeout=12) as resp:
+                    res = json.loads(resp.read().decode("utf-8"))
+                    return res["candidates"][0]["content"]["parts"][0]["text"]
+            except Exception as e:
+                raise RuntimeError(f"Gemini API request failed: {e}")
 
     def _synthesize_local_answer(
         self,
@@ -98,6 +123,11 @@ class DevOpsQAEngine:
             answer_lines.append(
                 f"The AI decision engine selected **{final_cloud}** running **{final_compute}** as the primary deployment architecture."
             )
+            gcp_proj = os.environ.get("GOOGLE_CLOUD_PROJECT", "mcp-test-sreenivas")
+            gcp_loc = os.environ.get("GOOGLE_CLOUD_LOCATION", "us-central1")
+            aws_reg = os.environ.get("AWS_DEFAULT_REGION", "us-east-1")
+            target_env_str = f"GCP Project `{gcp_proj}` (Region: `{gcp_loc}`)" if final_cloud == "GCP" else f"AWS (Region: `{aws_reg}`)"
+            answer_lines.append(f"- **Deployment Target:** {target_env_str}.")
             answer_lines.append(
                 f"- **Application Characteristics:** Detected {scan.get('primary_language', 'N/A')} with {scan.get('primary_framework', 'N/A')} "
                 f"framework, {scan.get('total_loc', 0)} lines of code, and {scan.get('route_count', 0)} exposed API endpoints."

@@ -1,3 +1,13 @@
+try:
+    from devops_engine.config import load_env
+    load_env()
+except ImportError:
+    try:
+        from config import load_env
+        load_env()
+    except ImportError:
+        pass
+
 """Interactive Streamlit Dashboard for Autonomous DevOps Decision Engine & RAG Q&A (Phase 1).
 Provides real-time codebase scanning, ML model probabilities, AWS vs GCP comparative costing,
 and interactive Context-Aware Question Answering.
@@ -79,6 +89,17 @@ else:
     project_path = sample_options[selected_choice]
 
 st.sidebar.markdown("---")
+with st.sidebar.expander("Cloud & Environment Config (.env)", expanded=True):
+    _gcp_p = os.environ.get("GOOGLE_CLOUD_PROJECT", "mcp-test-sreenivas")
+    _gcp_l = os.environ.get("GOOGLE_CLOUD_LOCATION", "us-central1")
+    _has_key = bool(os.environ.get("GEMINI_API_KEY") or os.environ.get("GOOGLE_API_KEY"))
+    st.write(f"**GCP Project:** `{_gcp_p}`")
+    st.write(f"**GCP Region:** `{_gcp_l}`")
+    if _has_key:
+        st.success("Google API Key: Active")
+    else:
+        st.info("Google API Key: Offline RAG Mode")
+
 st.sidebar.subheader("Cloud Preferences & Rules")
 
 cloud_constraint = st.sidebar.selectbox(
