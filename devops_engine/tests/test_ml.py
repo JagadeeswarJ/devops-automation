@@ -1,8 +1,21 @@
 """Unit tests for ML Inference Engine."""
 
+import os
+import sys
 import unittest
 import pandas as pd
-from devops_engine.ml.predictor import DevOpsPredictor
+
+_this_dir = os.path.dirname(os.path.abspath(__file__))
+_engine_dir = os.path.dirname(_this_dir)
+_root_dir = os.path.dirname(_engine_dir)
+for p in [_root_dir, _engine_dir]:
+    if p not in sys.path:
+        sys.path.insert(0, p)
+
+try:
+    from devops_engine.ml.predictor import DevOpsPredictor
+except ImportError:
+    from ml.predictor import DevOpsPredictor
 
 
 class TestMLEngine(unittest.TestCase):

@@ -1,11 +1,24 @@
 """Unit tests for Codebase Analyzer."""
 
 import os
+import sys
 import unittest
-from devops_engine.analyzer.codebase_scanner import scan_directory
-from devops_engine.analyzer.feature_extractor import extract_ml_features
 
-SAMPLE_BASE = os.path.join(os.path.dirname(__file__), "..", "devops_engine", "sample_projects")
+_this_dir = os.path.dirname(os.path.abspath(__file__))
+_engine_dir = os.path.dirname(_this_dir)
+_root_dir = os.path.dirname(_engine_dir)
+for p in [_root_dir, _engine_dir]:
+    if p not in sys.path:
+        sys.path.insert(0, p)
+
+try:
+    from devops_engine.analyzer.codebase_scanner import scan_directory
+    from devops_engine.analyzer.feature_extractor import extract_ml_features
+except ImportError:
+    from analyzer.codebase_scanner import scan_directory
+    from analyzer.feature_extractor import extract_ml_features
+
+SAMPLE_BASE = os.path.join(_engine_dir, "sample_projects")
 
 
 class TestCodebaseAnalyzer(unittest.TestCase):

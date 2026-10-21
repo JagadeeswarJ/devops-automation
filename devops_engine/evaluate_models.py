@@ -3,10 +3,21 @@ Loads the serialized evaluation metrics and outputs formal tables for review and
 """
 
 import os
+import sys
 import json
 import pandas as pd
 
-METRICS_PATH = os.path.join("devops_engine", "ml", "models", "evaluation_metrics.json")
+_this_dir = os.path.dirname(os.path.abspath(__file__))
+_root_dir = os.path.dirname(_this_dir) if os.path.basename(_this_dir) == "devops_engine" else _this_dir
+if _root_dir not in sys.path:
+    sys.path.insert(0, _root_dir)
+if _this_dir not in sys.path:
+    sys.path.insert(0, _this_dir)
+
+if os.path.basename(_this_dir) == "devops_engine":
+    METRICS_PATH = os.path.join(_this_dir, "ml", "models", "evaluation_metrics.json")
+else:
+    METRICS_PATH = os.path.join(_this_dir, "devops_engine", "ml", "models", "evaluation_metrics.json")
 
 
 def report_evaluation():
@@ -34,7 +45,7 @@ def report_evaluation():
             "Model Name": display_name,
             "Test Accuracy": f"{m['test_accuracy'] * 100:.2f}%",
             "Test F1 (Weighted)": f"{m['test_f1_weighted'] * 100:.2f}%",
-            "5-Fold CV Mean": f"{m['cv_accuracy_mean'] * 100:.2f}% (±{m['cv_accuracy_std']*100:.2f}%)",
+            "5-Fold CV Mean": f"{m['cv_accuracy_mean'] * 100:.2f}% (?{m['cv_accuracy_std']*100:.2f}%)",
         })
 
     summary_df = pd.DataFrame(summary_rows)
@@ -49,12 +60,13 @@ def report_evaluation():
     print(cloud_df.to_string())
 
     print("\n" + "-" * 70)
-    print("Top Predictive Feature Importances for Cloud Decision Making")
+    print("Top Predictive Features for Cloud Recommendation (Gini Importance)")
     print("-" * 70)
-    for idx, item in enumerate(metrics.get("top_cloud_features", []), 1):
-        print(f"  {idx}. {item['feature']:<30} : {item['importance'] * 100:.2f}%")
-
-    print("\n" + "=" * 70)
+    top_feats = metrics.get("top_cloud_features", [])
+    if top_feats:
+        feat_df = pd.DataFrame(top_feats)
+        print(feat_df.to_string(index=False))
+    print("=" * 70 + "\n")
 
 
 if __name__ == "__main__":

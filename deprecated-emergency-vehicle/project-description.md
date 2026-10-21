@@ -1,4 +1,0 @@
-Project
-
-This project introduces an AI-driven adaptive traffic control system designed to minimize emergency response times by preventing ambulances from getting delayed by urban congestion. Utilizing a custom-trained YOLOv8 object detection model, the system analyzes real-time video feeds from existing traffic cameras to accurately identify emergency vehicles among standard traffic classes like cars, buses, and trucks. Upon detecting an ambulance, the system automatically communicates with traffic signal controllers to dynamically adjust lights and create a "green corridor" for clear, immediate passage. Designed for seamless integration into smart city infrastructure via edge devices or cloud platforms, this automated solution clears intersections ahead of time without manual intervention, ultimately enhancing road safety and saving critical minutes during life-threatening emergencies. 
-
