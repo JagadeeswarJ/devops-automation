@@ -3,6 +3,9 @@ Loads environment variables from .env file and provides platform-wide settings.
 """
 
 import os
+# Enforce 100% offline local embeddings (no unauthenticated HF hub calls)
+os.environ["HF_HUB_OFFLINE"] = "1"
+os.environ["TRANSFORMERS_OFFLINE"] = "1"
 from pathlib import Path
 
 

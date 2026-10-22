@@ -1,3 +1,6 @@
+import os
+os.environ['HF_HUB_OFFLINE'] = '1'
+os.environ['TRANSFORMERS_OFFLINE'] = '1'
 """Dense Semantic Vector Store using Sentence Transformers.
 Indexes application code chunks, architectural summaries, and cloud knowledge docs into 384-dim embeddings.
 """

@@ -192,7 +192,7 @@ with tab1:
         st.subheader("Discovered HTTP Routes")
         if scan.get("routes"):
             routes_df = pd.DataFrame(scan["routes"])
-            st.dataframe(routes_df, use_container_width=True, height=180)
+            st.dataframe(routes_df, width="stretch", height=180)
         else:
             st.info("No standard web endpoints discovered (Event-driven or non-HTTP runtime).")
 
@@ -271,7 +271,7 @@ with tab2:
             gcp_c["total_estimated_monthly_usd"],
         ]
     })
-    st.dataframe(cost_table, use_container_width=True)
+    st.dataframe(cost_table, width="stretch")
 
     st.markdown("---")
     st.subheader(f"Complete Generated Cloud Architecture ({final_cloud})")

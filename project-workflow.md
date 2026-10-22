@@ -281,3 +281,72 @@ pytest tests -v
 ```powershell
 python evaluate_models.py
 ```
+
+### Step 7: Run Automated End-to-End Browser Tests (Playwright)
+```powershell
+# Run standalone browser test runner with screenshot captures:
+python playwright_test/run_tests.py
+
+# Or run via pytest runner:
+pytest playwright_test/test_app.py -v
+```
+
+---
+
+# 7. Interactive Web Dashboard UI Architecture & Feature Breakdown
+
+The framework provides an interactive Streamlit engineering dashboard (`devops_engine/app.py`) running locally on `http://localhost:8501`. The UI is organized into a persistent control sidebar and four dedicated functional tabs corresponding to the project objectives:
+
+### 7.1 Sidebar: Project & Strategy Control Panel
+* **Target Codebase Selector:** Pre-loaded microservice repositories (`FastAPI Order Microservice`, `User REST API`, `Enterprise Billing Service`, `Serverless Webhook Handler`) or custom directory path input.
+* **Cloud Provider Constraint:** 
+  * `Auto (ML Decides)`: Default probabilistic model recommendation.
+  * `AWS Only`: Enforces AWS deployment stack and computes cost variances.
+  * `GCP Only`: Enforces GCP deployment stack and computes cost variances.
+* **Optimization Objective:**
+  * `Balanced (ML + Cost)`: Standard weighted multi-factor selection.
+  * `Cheapest (Enforce Lowest Monthly Bill)`: Deterministic cost arbitration rule that selects the cloud with the minimum projected monthly expenditure.
+  * `Performance (Favor Container PaaS)`: Prioritizes low-latency container execution tiers.
+* **Expected Traffic Tier Slider:** Dynamic selector across `Light (300k req/mo)`, `Medium (2.5M req/mo)`, and `Heavy (15M req/mo)`, triggering real-time re-calculation of AWS vs GCP monthly pricing across all infrastructure tiers.
+
+---
+
+### 7.2 Tab 1: Static Codebase Characterization (Objective 1)
+* **High-Level Metric Cards:** Real-time summary cards displaying Primary Language (e.g. `Python`), Web Framework (e.g. `FastAPI`), Persistence Layer (`PostgreSQL`), and Containerization Packaging (`Yes (Dockerfile)`).
+* **Architectural Signatures Panel:** Detailed breakdown of total lines of code (LOC), file counts, discovered route counts, caching layers (Redis), detected target port (e.g. `8000`), and referenced environment variables (`DATABASE_URL`, `JWT_SECRET_KEY`, `REDIS_HOST`).
+* **Discovered HTTP Endpoints Table:** Interactive table listing all parsed endpoints, HTTP methods (`GET`, `POST`, `PUT`, `DELETE`), handler function names, source filenames, and line numbers.
+* **Extracted Feature Vector Inspector:** Expandable JSON viewer displaying the normalized 10-dimensional feature vector ($X \in \mathbb{R}^{10}$) passed to the ML models.
+
+---
+
+### 7.3 Tab 2: ML Multi-Cloud Recommendation & Cost Sizing (Objective 1)
+* **Top Decision Cards:** Prominent status cards displaying the Selected Cloud (`Target Cloud: GCP`), Architectural Archetype (`High_Throughput_Container_Mesh`), and Compute Service (`GCP Cloud Run`).
+* **Explainable Rule Layer Notice:** Audit trail callout that renders whenever user constraints or cheapest-cost rules override pure ML predictions.
+* **Interactive Probability Distributions:** Side-by-side probability charts displaying multi-class confidence scores:
+  * *Cloud Provider Confidence:* AWS vs. GCP probability distribution.
+  * *Compute Service Confidence:* Probabilities across EC2, Fargate, Lambda, Cloud Run, Cloud Functions, and Compute Engine.
+* **Algorithmic Cost Sizing Breakdown Table:** Comprehensive side-by-side monthly expenditure table comparing AWS vs. GCP across Compute, Database, Cache, Storage, and Egress, accompanied by a "Cost Winner" badge calculating dollar savings and percentage advantage.
+* **Generated Cloud Architecture Specification:** Complete production stack breakdown (Compute, High Availability Database, Cache, Object Storage, IAM security, and VPC Networking).
+* **DevSecOps Validation Gates:** Real-time zero-tolerance governance checks displaying `[PASS]`, `[PASS_WITH_POLICY]`, or `[ACTION_REQUIRED]` badges for:
+  1. *Deployability & Packaging Gate*
+  2. *Security & Network Isolation Gate*
+  3. *Secret Management Gate* (intercepting sensitive variables like `JWT_SECRET_KEY`)
+  4. *Observability & Liveness Gate* (verifying `/health` and readiness probe routes).
+
+---
+
+### 7.4 Tab 3: Context-Aware Application Question Answering (RAG) (Objective 2)
+* **Dynamic Diagnostic Questions Panel:** Automatically synthesizes 5 to 7 context-specific questions tailored to discovered code patterns (e.g., asking specifically about PostgreSQL provisioning, Redis caching, or Dockerfile port exposure).
+* **Interactive Query Box:** Allows users to select any suggested question with a single click or type custom natural language queries.
+* **Citation-Grounded Answer Synthesis:** Renders structured answers citing exact source files and line ranges (e.g., `[main.py: lines 1-30]`), ensuring verifiable, zero-hallucination responses.
+* **Active Synthesis Mode Indicator:** Displays whether the answer was synthesized via Google Gemini LLM API (if configured) or the built-in offline local context synthesis engine.
+
+---
+
+### 7.5 Tab 4: Model Architecture, Training & Empirical Validation
+* **Performance Benchmark Metric Cards:** Displays 5-fold cross-validation and test accuracies for all three trained models:
+  * *Architectural Archetype Classifier:* **100.0% Test / 99.56% CV Accuracy**
+  * *Cloud Provider Recommender:* **75.6% Test / 79.12% CV Accuracy**
+  * *Compute Service Sizer:* **100.0% Test / 100.0% CV Accuracy**
+* **Top Predictive Features Bar Chart:** Visual ranking of feature importances (e.g., `is_containerized`, `route_count`, `base_memory_mb`, `language_Java`, `database_DynamoDB`).
+* **Complete Classification Reports:** Expandable JSON viewer with full precision, recall, F1-score, and confusion matrices for all 1,600 training samples.
